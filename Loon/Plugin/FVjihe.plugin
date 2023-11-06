@@ -17,7 +17,7 @@ hostname = www.xiaoxiongyouhao.com,flomoapp.com,appraven.net,api.revenuecat.com,
 
 [Script]
 #xxyh
-http-response ^http[s]?:\/\/www.xiaoxiongyouhao.com\/api\/vip\/index.php script-path=https://raw.githubusercontent.com/Raphael689/RW/master/Scripts/xiaoxiongyouhao.js,requires-body=1, tag=xxyh
+http-response ^http[s]?:\/\/www.xiaoxiongyouhao.com\/api\/vip\/index.php script-path=https://gist.githubusercontent.com/Raphael689/1425572ded14c6b6c97cd5b789085046/raw/c0acbe249403e0c06f1b4407f84bbff3d1d7861a/xxyh.js,requires-body=1, tag=xxyh
 
 #Flomo解锁会员
 http-response ^https:\/\/flomoapp\.com\/api\/v1\/user\/me script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/flomo.js,requires-body=1, tag=Flomo解锁会员
