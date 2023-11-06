@@ -1,0 +1,15 @@
+#!name = 京东助手
+#!desc = 京东购物助手，进入商品详情页触发，支持京东、京喜和极速版京粉转链、慢慢买和什么值得买
+#!author = 
+#!homepage = 
+#!openurl = 
+#!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/jd.png
+#!date = 
+
+[MITM]
+hostname = in.m.jd.com, me-api.jd.com, wqs.jd.com, lite-in.m.jd.com
+
+[Script]
+#京东助手
+http-response ^https:\/\/((?!(api|mapi|lbsapi|im\-x|hermes|uranus|saturn|ccf|ccflbs|ccfjma|perf|msg|lite\-msg|firevent|fireactive|lbsgw|lbsgd|ex|policy|mars|blackhole|homepage\-gw|sh|un|bh|orbit|wlmonitor|neptune|jxa|sinan\-agent|ws1\-dd|httpfereport|jingfenapp|jdpull|wlogin|we|live\-ws1|payfinish)\.).*\.?jd\.com\/?((?!\.(js|json|jpg|gif|png|webp|dpg|flv|mp3|mp4)).)*)*$ script-path=https://raw.githubusercontent.com/Raphael689/RW/master/Scripts/jd_buy_helper.js,requires-body=1,max-size=-1,tag=京东助手
+

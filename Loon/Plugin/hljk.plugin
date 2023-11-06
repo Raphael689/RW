@@ -1,0 +1,13 @@
+#!name = 汇率
+#!desc = 定时监控汇率
+#!author =
+#!openUrl =
+#!homepage =
+#!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/hljk.png
+#!date = 
+
+
+
+
+[Script]
+cron "0 0 7 * * *" script-path=https://gist.githubusercontent.com/Raphael689/c3ff54b6da19884df536ead4ba90d473/raw/6ddb876a6ec825f2e4f9320dcc18dbbecfe3b005/hljk.js, tag=今日汇率, enabled=true

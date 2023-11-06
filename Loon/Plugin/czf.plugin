@@ -1,0 +1,11 @@
+#!name = 甄爱粉俱乐部
+#!desc = 甄爱粉俱乐部签到
+#!author = @Sliverkiss
+#!homepage = 
+#!openurl = 
+#!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/czf.png
+#!date = 2023-10-16 10:03:20
+
+[Script]
+#纯甄粉爱俱乐部签到
+cron "1 8 * * *" script-path=https://gist.githubusercontent.com/Raphael689/1bd0aed6dff228061a13e2c34173fcb8/raw/c9f5e4f0fde48648d93525a945b2d05dceb4e1d5/czf.js, timeout=300, tag=纯甄粉爱俱乐部签到

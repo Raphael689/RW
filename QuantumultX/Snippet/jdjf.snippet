@@ -1,0 +1,13 @@
+#!name = 京东比价/京粉转链
+#!desc = 京东比价/京粉转链
+#!author = 
+#!homepage = 
+#!openurl = 
+#!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/jd.png
+#!date = 2023-10-13 13:35:04
+
+[mitm]
+hostname = api.m.jd.com
+
+[rewrite_local]
+^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item) url script-response-body https://raw.githubusercontent.com/Tartarus2014/Script/master/jdjf_price.js

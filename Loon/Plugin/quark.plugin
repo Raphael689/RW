@@ -1,0 +1,11 @@
+#!name = quark
+#!desc = 
+#!author = 
+#!homepage = 
+#!openurl = 
+#!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/quark.png
+#!date = 2023-11-01 16:34:31
+
+
+[Script]
+cron "10 0 * * *" script-path=https://gist.githubusercontent.com/Sliverkiss/2694a665b4e52d8788c18394201ff3eb/raw/quarkcloud.js, timeout=300, tag=quark

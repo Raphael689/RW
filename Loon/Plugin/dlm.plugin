@@ -1,0 +1,11 @@
+#!name = dlm
+#!desc = 优惠券抽奖
+#!author = 
+#!homepage = 
+#!openurl =
+#!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/dlm.png
+#!date = 2023-10-30 15:13:26
+
+
+[Script]
+cron "30 10 * * *" script-path = https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/100269fc92d8ed607fd5f105c2c5b32876101ff1/dlm.js, timeout=300, tag=dlm

@@ -1,0 +1,11 @@
+#!name = 黑料不打烊
+#!desc = 展示最新黑料
+#!author = 
+#!homepage = 
+#!openurl = 
+#!icon = https://raw.githubusercontent.com/Toperlock/Quantumult/main/icon/heiliao-2.png
+#!date = 
+
+
+[Script]
+cron "0 9,15 * * *" script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/hlbdy.js, tag=黑料不打烊, enabled=true

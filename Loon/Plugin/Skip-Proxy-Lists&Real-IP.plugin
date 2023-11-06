@@ -1,0 +1,31 @@
+#!name = Skip Proxy Lists&Real IP
+#!desc = 跳过部分APP代理检测,返回真实IP段
+#!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/ssLinks.png
+#!openUrl = 
+#!author = 
+#!homepage = https://github.com/Raphael689/RW/edit/master/Loon/Plugin/Loon-Skip-Proxy-Lists&Real-IP.plugin
+#!date = 
+
+
+[General]
+# > 跳过代理
+# 跳过某个域名或者 IP 段，这些目标主机将不会由 Loon Proxy 处理。
+skip-proxy = 192.168.50.0/24, 10.0.0.0/24, 192.168.0.0/16, 192.168.122.1/32, 193.168.0.1/32, ::1/128, fe80::/10, captive.apple.com, e.crashlytics.com, iosapps.itunes.apple.com, www.baidu.com, yunbusiness.ccb.com, wxh.wo.cn, gate.lagou.com, www.abchina.com.cn, www.shanbay.com, login-service.mobile-bank.psbc.com, mobile-bank.psbc.com, api.nike.com.cn,auth-asg.aliyuncs.com,tdsdk.cpatrk.net,mobile-collector.newrelic.com,access1.tps.tencent.com,snkrs.services.nike.com.cn,*.nike.com.cn,162.247.243.24
+
+## www.baidu.com：网上国网、多看阅读、顺丰金融、广东农信、丰云行、中国银行缤纷生活、通信行程卡app、趣智校园、趣听音乐、光大手机银行、掌上12333、沃视频
+## yunbusiness.ccb.com：建行生活
+## wxh.wo.cn：沃小号
+## gate.lagou.com：拉勾招聘
+## www.abchina.com.cn：中国农业银行
+## www.shanbay.com 扇贝单词消息中心
+## www.google.com 成都公积金
+## login-service.mobile-bank.psbc.com,mobile-bank.psbc.com：中国邮政储蓄
+## api.nike.com.cn,auth-asg.aliyuncs.com,tdsdk.cpatrk.net,mobile-collector.newrelic.com,access1.tps.tencent.com,snkrs.services.nike.com.cn,*.nike.com.cn SNKRS
+
+# > Always Real IP Hosts
+# DNS 数据包将被转发到上游 DNS 服务器。
+real-ip = *.nike.com.cn,*.cpatrk.net,*.newrelic.com, *.lan, *.direct, cable.auth.com, *.msftconnecttest.com, *.msftncsi.com, network-test.debian.org, detectportal.firefox.com, resolver1.opendns.com, *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, stun.*, global.turn.twilio.com, global.stun.twilio.com, app.yinxiang.com, injections.adguard.org, local.adguard.org, cable.auth.com, localhost.*.qq.com, localhost.*.weixin.qq.com, *.logon.battlenet.com.cn, *.logon.battle.net, *.blzstatic.cn, music.163.com, *.music.163.com, *.126.net, musicapi.taihe.com, music.taihe.com, songsearch.kugou.com, trackercdn.kugou.com, *.kuwo.cn, api-jooxtt.sanook.com, api.joox.com, joox.com, y.qq.com, *.y.qq.com, streamoc.music.tc.qq.com, mobileoc.music.tc.qq.com, isure.stream.qqmusic.qq.com, dl.stream.qqmusic.qq.com, aqqmusic.tc.qq.com, amobile.music.tc.qq.com, *.xiami.com, *.music.migu.cn, music.migu.cn, proxy.golang.org, *.mcdn.bilivideo.cn, *.cmpassport.com, id6.me, open.e.189.cn, mdn.open.wo.cn, opencloud.wostore.cn, auth.wosms.cn, *.jegotrip.com.cn, *.icitymobile.mobi, *.pingan.com.cn, *.cmbchina.com, pool.ntp.org, *.pool.ntp.org, ntp.*.com, time.*.com, ntp?.*.com, time?.*.com, time.*.gov, time.*.edu.cn, *.ntp.org.cn, PDC._msDCS.*.*, DC._msDCS.*.*, GC._msDCS.*.*
+
+[MitM]
+# 不可MitM也不应该被打断连接的域名
+hostname = -gateway.icloud.com, -gateway.icloud.com.cn, -weather-data.apple.com, -pan.baidu.com

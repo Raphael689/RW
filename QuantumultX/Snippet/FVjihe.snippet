@@ -1,0 +1,30 @@
+#!name = APP脚本合集
+#!desc = Flomo,Appraven,SparkMail,菜谱大全解锁
+#!openUrl = 
+#!author =  
+#!homepage = https://github.com/Guding88/Script/blob/main/Readme.md
+#!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/RW689.png
+#!date = 2023-09-29 21:07:08
+
+
+#Flomo解锁会员 flomoapp.com Appraven Pro解锁 appraven.net
+
+[mitm]
+hostname = flomoapp.com,appraven.net,api.revenuecat.com,dq.xiangha.com,apiios_dq.xiangha.com
+/*
+Flomo解锁会员 flomoapp.com Appraven Pro解锁 appraven.net SparkMail解锁 api.revenuecat.com 菜谱大全 dq.xiangha.com,apiios_dq.xiangha.com 
+*/
+
+
+[rewrite_local]
+#Flomo解锁会员
+^https:\/\/flomoapp\.com\/api\/v1\/user\/me url script-response-header https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/flomo.js
+
+#Appraven Pro解锁
+^https?:\/\/appraven\.net\/AppRaven\/(app|social|buy) url script-response-body https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/appraven.js
+
+#SparkMail解锁 
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/(\$RCAnonymousID%)?(\w)*$) url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/SparkMail.js
+
+#菜谱大全解锁
+^https:\/\/apiios_dq\.xiangha\.com url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/cpdq.js

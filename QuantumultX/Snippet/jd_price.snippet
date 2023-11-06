@@ -1,0 +1,8 @@
+#!name=京东比价
+#!desc=京东比价
+#!system=ios
+#!date=2022-02-22 09:09
+
+^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/githubdulong/Script/master/jd_price.js
+
+hostname = api.m.jd.com
