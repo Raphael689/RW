@@ -1,22 +1,25 @@
 #!name = APP脚本合集
-#!desc = Flomo,Appraven,SparkMail,菜谱大全解锁
+#!desc = xxyh,Flomo,Appraven,SparkMail,菜谱大全解锁
 #!openUrl = 
 #!author =  
 #!homepage = https://github.com/Guding88/Script/blob/main/Readme.md
 #!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/RW689.png
-#!date = 2023-09-29 21:07:08
+#!date = 2023-11-06 16:10:37
 
 
 #Flomo解锁会员 flomoapp.com Appraven Pro解锁 appraven.net
 
 [mitm]
-hostname = flomoapp.com,appraven.net,api.revenuecat.com,dq.xiangha.com,apiios_dq.xiangha.com
+hostname = www.xiaoxiongyouhao.com,flomoapp.com,appraven.net,api.revenuecat.com,dq.xiangha.com,apiios_dq.xiangha.com
 /*
-Flomo解锁会员 flomoapp.com Appraven Pro解锁 appraven.net SparkMail解锁 api.revenuecat.com 菜谱大全 dq.xiangha.com,apiios_dq.xiangha.com 
+xxyh www.xiaoxiongyouhao.com Flomo解锁会员 flomoapp.com Appraven Pro解锁 appraven.net SparkMail解锁 api.revenuecat.com 菜谱大全 dq.xiangha.com,apiios_dq.xiangha.com 
 */
 
 
 [rewrite_local]
+#xxyh
+^http[s]?:\/\/www.xiaoxiongyouhao.com\/api\/vip\/index.php url script-response-body https://gist.githubusercontent.com/Raphael689/1425572ded14c6b6c97cd5b789085046/raw/c0acbe249403e0c06f1b4407f84bbff3d1d7861a/xxyh.js
+
 #Flomo解锁会员
 ^https:\/\/flomoapp\.com\/api\/v1\/user\/me url script-response-header https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/flomo.js
 
