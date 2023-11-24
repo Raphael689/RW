@@ -4,18 +4,21 @@
 #!author =  
 #!homepage = https://github.com/Guding88/Script/blob/main/Readme.md
 #!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/RW689.png
-#!date = 2023-10-30 15:21:13
+#!date = 2023-11-24 14:38:02
 
 
 
 [MITM]
-hostname = www.xiaoxiongyouhao.com,flomoapp.com,appraven.net,api.revenuecat.com,dq.xiangha.com,apiios_dq.xiangha.com
+hostname =  www.evestudio.cn,www.xiaoxiongyouhao.com,flomoapp.com,appraven.net,api.revenuecat.com,dq.xiangha.com,apiios_dq.xiangha.com
 /*
-小熊油耗 www.xiaoxiongyouhao.com Flomo解锁会员 flomoapp.com Appraven Pro解锁 appraven.net SparkMail解锁 api.revenuecat.com 菜谱大全 dq.xiangha.com,apiios_dq.xiangha.com 
+todo清单 www.evestudio.cn 小熊油耗 www.xiaoxiongyouhao.com Flomo解锁会员 flomoapp.com Appraven Pro解锁 appraven.net SparkMail解锁 api.revenuecat.com 菜谱大全 dq.xiangha.com,apiios_dq.xiangha.com 
 */
 
 
 [Script]
+#todo清单
+http-response ^https:\/\/www\.evestudio\.cn\/todoList\/getDetailUser script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Todo.js,requires-body=1, tag=todo清单
+
 #xxyh
 http-response ^http[s]?:\/\/www.xiaoxiongyouhao.com\/api\/vip\/index.php script-path=https://gist.githubusercontent.com/Raphael689/1425572ded14c6b6c97cd5b789085046/raw/c0acbe249403e0c06f1b4407f84bbff3d1d7861a/xxyh.js,requires-body=1, tag=xxyh
 
