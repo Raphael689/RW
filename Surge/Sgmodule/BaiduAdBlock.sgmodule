@@ -52,4 +52,4 @@ https:\/\/pan\.baidu\.com\/component\/view\/(1510|1130)\?vip _ reject
 [Script]
 
 [MITM]
-hostname =sofire.baidu.com,ndstatic.cdn.bcebos.com,pan.baidu.com,staticsns.cdn.bcebos.com,issuecdn.baidupcs.com,dss0.bdstatic.com,*.tieba.baidu.com
+hostname = %APPEND% sofire.baidu.com,ndstatic.cdn.bcebos.com,pan.baidu.com,staticsns.cdn.bcebos.com,issuecdn.baidupcs.com,dss0.bdstatic.com,*.tieba.baidu.com
