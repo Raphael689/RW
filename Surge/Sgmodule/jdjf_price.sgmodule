@@ -7,7 +7,7 @@
 #!date = 
 
 [MITM]
-hostname = api.m.jd.com
+hostname = %APPEND% api.m.jd.com
 
 [Script]
 #京东比价
