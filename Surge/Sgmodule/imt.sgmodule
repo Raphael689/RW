@@ -1,0 +1,7 @@
+#!name = i
+#!desc = i
+#!date = 2023-10-09 11:02:05
+
+[Script]
+cron "5 9 * * *" script-path=https://gist.githubusercontent.com/Raphael689/d73beba416a0da7d4dce204d9c53e028/raw/i-maotai.js,tag =i,enable=true
+
