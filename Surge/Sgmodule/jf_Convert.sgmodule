@@ -8,7 +8,7 @@
 
 
 [MITM]
-hostname=api.m.jd.com
+hostname = %APPEND% api.m.jd.com
 
 [Script]
 #京粉转链
