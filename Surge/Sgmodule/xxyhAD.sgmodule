@@ -7,7 +7,7 @@
 #!date = 2023-10-30 15:31:14
 
 [MITM]
-hostname = api-access.pangolin-sdk-toutiao.com,api-v3.speedtest.cn
+hostname = %APPEND% api-access.pangolin-sdk-toutiao.com,api-v3.speedtest.cn
 
 [Rewrite]
 ^https:\/\/api-v3\.speedtest\.cn\/speedUp\/query url reject-200
