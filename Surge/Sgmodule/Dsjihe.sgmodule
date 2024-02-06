@@ -4,15 +4,8 @@
 #!author =  
 #!homepage =  
 #!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/tixing.png
-#!date = 2023-09-29 21:06:51
+#!date = 2024年2月6日19:34:49
 
-
-/*
-今日油价需要配合BoxJs
-BoxJs订阅地址：https://raw.githubusercontent.com/Toperlock/Quantumult/main/boxjs.json
-把'fujian'修改为其他地区拼音，支持省/市/区'fujian/fuzhou/gulou'
-因为陕西和山西拼音一样，陕西需要改为"shanxi-3"
-*/
 
 [Script]
 #摸鱼
