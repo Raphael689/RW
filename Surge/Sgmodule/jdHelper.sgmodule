@@ -7,7 +7,7 @@
 #!date = 
 
 [MITM]
-hostname = in.m.jd.com, me-api.jd.com, wqs.jd.com, lite-in.m.jd.com
+hostname = %APPEND% in.m.jd.com, me-api.jd.com, wqs.jd.com, lite-in.m.jd.com
 
 [Script]
 #京东助手
