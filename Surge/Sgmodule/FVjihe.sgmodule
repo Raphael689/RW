@@ -9,10 +9,7 @@
 
 
 [MITM]
-hostname =  www.evestudio.cn,www.xiaoxiongyouhao.com,flomoapp.com,appraven.net,api.revenuecat.com,dq.xiangha.com,apiios_dq.xiangha.com
-/*
-todo清单 www.evestudio.cn 小熊油耗 www.xiaoxiongyouhao.com Flomo解锁会员 flomoapp.com Appraven Pro解锁 appraven.net SparkMail解锁 api.revenuecat.com 菜谱大全 dq.xiangha.com,apiios_dq.xiangha.com 
-*/
+hostname = %APPEND% www.evestudio.cn,www.xiaoxiongyouhao.com,flomoapp.com,appraven.net,api.revenuecat.com,dq.xiangha.com,apiios_dq.xiangha.com
 
 
 [Script]
