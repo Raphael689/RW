@@ -16,16 +16,17 @@ BoxJs订阅地址：https://raw.githubusercontent.com/Toperlock/Quantumult/main/
 
 [Script]
 #摸鱼
-cron "6 9 * * *" script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/moyu.js, timeout=10, tag=摸鱼,  enabled=true
+摸鱼来啦 = type=cron,cronexp=0 6 9 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/moyu.js,timeout=60
 #今日油价
-cron "0 0 7 * * *" script-path=https://raw.githubusercontent.com/Toperlock/Quantumult/main/task/oil_price.js, tag=今日油价, enabled=true
+今日油价 = type=cron,cronexp=0 0 7 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/Toperlock/Quantumult/main/task/oil_price.js,timeout=60
 #今日汇率
-cron "0 0 7 * * *" script-path=https://gist.githubusercontent.com/Raphael689/c3ff54b6da19884df536ead4ba90d473/raw/6ddb876a6ec825f2e4f9320dcc18dbbecfe3b005/hljk.js, tag=今日汇率, enabled=true
+今日汇率 = type=cron,cronexp=0 0 7 * * *,wake-system=1,script-path=https://gist.githubusercontent.com/Raphael689/c3ff54b6da19884df536ead4ba90d473/raw/hljk.js,timeout=60
 #获取AppSliced每日限免
-cron "29 10,16 * * *" script-path=https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/AppSliced.js, tag=AppSliced今日限免, enabled=true
+获取AppSliced每日限免 = type=cron,cronexp=29 10,16 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/AppSliced.js,timeout=60
 #AppStore限免APP
-cron "17 0 8 * * *" script-path=https://raw.githubusercontent.com/deezertidal/private/main/appsdoor.js, timeout=10, tag=AppStore限免APP
+AppStore限免APP = type=cron,cronexp=17 0 8 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/deezertidal/private/main/appsdoor.js,timeout=60
 # 60秒读懂世界
-cron "30 8 * * *" script-path=https://gist.githubusercontent.com/Raphael689/54eb8c25ff8ca3255c505905329b4aaa/raw/805bd98eca94242c06fa83892551ee5ded4cd9d4/60s.js, tag=每天60s读懂世界, enabled=true
+每天60s读懂世界 = type=cron,cronexp=30 8 * * *,wake-system=1,script-path=https://gist.githubusercontent.com/Raphael689/54eb8c25ff8ca3255c505905329b4aaa/raw/60s.js,timeout=60
 #环境辐射检测
-cron "5 6 * * *" tag=环境辐射检测, script-path=https://raw.githubusercontent.com/evilbutcher/QuantumultX/master/check_in/hjjc/hjjc.js, enabled=true
+环境辐射检测 = type=cron,cronexp=5 6 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/evilbutcher/QuantumultX/master/check_in/hjjc/hjjc.js,timeout=60
+
