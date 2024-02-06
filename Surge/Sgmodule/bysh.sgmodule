@@ -1,0 +1,12 @@
+#!name = 白药生活+
+#!desc = 白药生活+签到
+#!author = Sliverkiss
+#!openUrl = 
+#!homepage = 
+#!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/bysh.png
+#!date = 
+
+
+[Script]
+##白药生活+
+cron "17 0 7 * * *" script-path=https://gist.githubusercontent.com/Raphael689/deaab991ba4edf812e64e2179650f408/raw/a64fbd700be5fe3f6aca978c39e2e50a89ec84ad/bysh.js, timeout=10, tag=白药生活+

@@ -1,0 +1,14 @@
+#!name = 联通cookie
+#!desc = 
+#!author = 
+#!homepage = 
+#!openurl = 
+#!icon = https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png
+#!date = 2023-12-16 23:02
+
+[Script]
+# 获取联通cookie
+http-request ^https:\/\/m\.client\.10010\.com\/serviceimportantbusiness\/smart\/smartwisdomCommonNew  script-path=https://raw.githubusercontent.com/dompling/Script/master/10010/index.js,tag=ChinaUnicom
+
+[MITM]
+hostname = act.10010.com, m.client.10010.com

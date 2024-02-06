@@ -1,0 +1,12 @@
+#!name = 今日限免
+#!desc = 获取AppSliced每日限免
+#!author = 
+#!openUrl = 
+#!homepage = 
+#!icon = https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Final.png
+#!date = 
+
+
+[Script]
+##获取AppSliced每日限免
+cron "29 10,16 * * *" script-path=https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/AppSliced.js, tag=AppSliced今日限免, enabled=true

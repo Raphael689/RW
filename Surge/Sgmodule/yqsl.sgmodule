@@ -1,0 +1,10 @@
+#!name = yqsl
+#!desc = 
+#!author = 
+#!homepage = 
+#!openurl = 
+#!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/yqsl.png
+#!date = 
+
+[Script]
+cron "30 0 7 * * *" script-path=https://gist.githubusercontent.com/Raphael689/9ee95f1962459d8e85afaaf96c9b1e3c/raw/151ecb0879b42a01aded271988d03fd00fe74606/yqslhy.js, timeout=300, tag=元气森林会员中心

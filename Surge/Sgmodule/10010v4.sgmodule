@@ -1,0 +1,14 @@
+#!name = 联通余量v4
+#!desc = https://t.me/zhetengsha_group
+#!author = ChinaUnicomDev
+#!homepage = https://github.com/ChinaTelecomOperators/ChinaUnicom
+#!openurl = https://boxjs.net/#/app/ChinaUnicom.10010v4
+#!icon = https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png
+#!date = 
+
+[Script]
+cron "* */2 * * *" script-path=https://github.com/ChinaTelecomOperators/ChinaUnicom/releases/download/Prerelease-Alpha/10010.js, tag=10010v4
+http-request ^https?:\/\/10010v4\.com script-path=https://github.com/ChinaTelecomOperators/ChinaUnicom/releases/download/Prerelease-Alpha/10010.js, tag=10010v4
+
+[MITM]
+hostname = 10010v4.com

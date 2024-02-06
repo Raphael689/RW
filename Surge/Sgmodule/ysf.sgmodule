@@ -1,0 +1,10 @@
+#!name = ysf
+#!desc = ysf
+#!author =
+#!openUrl = 
+#!homepage = 
+#!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/ysf.png
+#!date = 2023-05-22 22:11:56
+
+[Script]
+cron "0 20 8 * * *" script-path=https://gist.githubusercontent.com/Raphael689/baa8741701e186a500f9c61ce37459ff/raw/549c9bfdfb77ce33d6edf97bac33b205042fd3c7/ysf.js, timeout=10, tag=ysf

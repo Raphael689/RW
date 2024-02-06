@@ -1,0 +1,12 @@
+#!name = tls
+#!desc = tls
+#!author =
+#!openUrl = 
+#!homepage = 
+#!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/tls.png
+#!date = 
+
+
+
+[Script]
+cron "30 0 7 * * *" script-path=https://gist.githubusercontent.com/Raphael689/280c508bb785a36815d327e6b7633c0c/raw/dcc26c38976a18671fedffedb35d0a053f7193e9/tls.js, timeout=300, tag=tls, enabled=true

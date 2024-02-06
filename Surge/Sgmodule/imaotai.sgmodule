@@ -1,0 +1,13 @@
+#!name = i茅台
+#!desc = i茅台预约
+#!author = 
+#!homepage = 
+#!openurl = 
+#!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/imaotai.png
+#!date = 2023-10-09 11:02:05
+
+[Script]
+# 茅台自动预约
+cron "5 9 * * *" script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/i-maotai.js,tag = i 茅台,enable=true
+# 茅台自动预约
+cron "5 9,20 * * *" script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/imaotai/imaotai.js, tag=i茅台自动预约,enable=false

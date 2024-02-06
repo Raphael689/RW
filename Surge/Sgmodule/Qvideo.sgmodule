@@ -1,0 +1,12 @@
+#!name = 腾讯视频
+#!desc = 腾讯视频签到
+#!author = 
+#!homepage = 
+#!openurl = 
+#!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/videoqq.png
+#!date = 2023-09-30 22:08:02
+
+
+[Script]
+# 腾讯视频签到
+cron "0 5 * * *" script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/videoqq.js, tag=腾讯视频

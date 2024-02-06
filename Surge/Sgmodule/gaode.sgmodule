@@ -1,0 +1,14 @@
+#!name = 高德地图打车
+#!desc = 高德地图打车签到
+#!author =
+#!openUrl = 
+#!homepage = 
+#!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/gaode.png
+#!date = 
+
+
+
+[Script]
+##高德地图
+cron "40 9 * * *" script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js, tag=高德地图签到, enabled=true
+
