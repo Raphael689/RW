@@ -28,4 +28,4 @@ real-ip = *.nike.com.cn,*.cpatrk.net,*.newrelic.com, *.lan, *.direct, cable.auth
 
 [MitM]
 # 不可MitM也不应该被打断连接的域名
-hostname = -gateway.icloud.com, -gateway.icloud.com.cn, -weather-data.apple.com, -pan.baidu.com
+hostname = %APPEND% -gateway.icloud.com, -gateway.icloud.com.cn, -weather-data.apple.com, -pan.baidu.com
