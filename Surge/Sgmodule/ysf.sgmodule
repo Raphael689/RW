@@ -1,4 +1,4 @@
-#!name = ysf
+#!name = 云杉
 #!desc = ysf
 #!author =
 #!openUrl = 
@@ -7,4 +7,4 @@
 #!date = 2023-05-22 22:11:56
 
 [Script]
-cron "0 20 8 * * *" script-path=https://gist.githubusercontent.com/Raphael689/baa8741701e186a500f9c61ce37459ff/raw/549c9bfdfb77ce33d6edf97bac33b205042fd3c7/ysf.js, timeout=10, tag=ysf
+cron "0 20 8 * * *" script-path=https://gist.githubusercontent.com/Sliverkiss/f23891426d8b5a7603851d0496e94ab3/raw/ysfV2.js, timeout=10, tag=ysf
