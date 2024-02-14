@@ -54,7 +54,7 @@
         button.style.bottom = "50px"; // 上移一些以适应页面
       }
 
-      // 将 Loon u按钮放在右侧
+      // 将 Loon 按钮放在右侧
       if (text === "Loon") {
         button.style.right = "10px";
         button.style.bottom = "80px"; // 上移一些以适应页面
