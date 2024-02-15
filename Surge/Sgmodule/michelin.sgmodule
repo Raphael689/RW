@@ -1,0 +1,9 @@
+#!name= 米其林
+#!desc= 
+#!author= 
+#!homepage=  
+#!icon= 
+#!date =
+
+[Script]
+cron "0 15 13 * * 1" script-path=https://gist.githubusercontent.com/Sliverkiss/49c5d5176cad6e47919ffe058606ed0d/raw/michelin.js, timeout=300, tag=米其林会员俱乐部
