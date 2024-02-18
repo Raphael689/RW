@@ -1,0 +1,10 @@
+#!name= 中国人保
+#!desc= 签到
+#!author= 
+#!homepage=  
+#!icon= 
+#!date = 
+
+[Script]
+中国人保 = type=cron,cronexp=17 7 * * *,timeout=60,script-path=https://gist.githubusercontent.com/Sliverkiss/c2ddf6840d8a9afb45ee407326e7b86d/raw/zgrb.js,script-update-interval=0
+ 
