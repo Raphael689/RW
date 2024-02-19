@@ -8,4 +8,4 @@
 
 
 [Script]
-cron "10 0 * * *" script-path=https://gist.githubusercontent.com/Sliverkiss/2694a665b4e52d8788c18394201ff3eb/raw/quarkcloud.js, timeout=300, tag=quark
+quark = type=cron,cronexp=10 0 * * *,timeout=60,script-path=https://gist.githubusercontent.com/Sliverkiss/2694a665b4e52d8788c18394201ff3eb/raw/quarkcloud.js,script-update-interval=0
