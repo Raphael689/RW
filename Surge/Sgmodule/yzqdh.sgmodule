@@ -5,4 +5,4 @@
 #!date = 
 
 [Script]
-cron "30 8 * * *" script-path=https://gist.githubusercontent.com/Sliverkiss/585daf69a0a6c7243db8993f5394a124/raw/youzan.js, timeout=300, tag=Sakura Checkbox
+Sakura Checkbox = type=cron,cronexp=30 8 * * *,timeout=60,script-path=https://gist.githubusercontent.com/Sliverkiss/585daf69a0a6c7243db8993f5394a124/raw/youzan.js,script-update-interval=0
