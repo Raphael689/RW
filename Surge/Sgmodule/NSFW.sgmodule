@@ -4,12 +4,12 @@
 #!homepage = 
 #!openurl = 
 #!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/nsfw.png
-#!date = 2023-10-09 16:08:03
+#!date = 2024-02-19 20:12:07
 
 [Script]
 #猛男仓库最新猛料
-cron "30 21 * * *" script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/mnck.js, timeout=10, tag=猛男仓库最新猛料, enabled=true
+猛男仓库最新猛料 = type=cron,cronexp=0 30 21 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/mnck.js,timeout=60
 #黑料不打烊
-cron "0 9,15 * * *" script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/hlbdy.js, tag=黑料不打烊, enabled=true
+黑料不打烊 = type=cron,cronexp=0 0 9,15 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/hlbdy.js,timeout=60
 #最新技術推送
-cron "0 8,14,20 * * *" script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/1024.js, tag=最新技術推送, enabled=true
+最新技術推送 = type=cron,cronexp=0 0 8,14,20 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/1024.js,timeout=60
