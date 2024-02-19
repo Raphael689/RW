@@ -7,6 +7,5 @@
 #!date = 
 
 
-
 [Script]
-cron "30 0 7 * * *" script-path=https://gist.githubusercontent.com/Raphael689/280c508bb785a36815d327e6b7633c0c/raw/dcc26c38976a18671fedffedb35d0a053f7193e9/tls.js, timeout=300, tag=tls, enabled=true
+tls = type=cron,cronexp=30 0 7 * * *,timeout=60,script-path=https://gist.githubusercontent.com/Raphael689/280c508bb785a36815d327e6b7633c0c/raw/tls.js,script-update-interval=0
