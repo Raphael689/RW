@@ -37,14 +37,6 @@ DOMAIN, awaken.amap.com, REJECT
 DOMAIN, free-aos-cdn-image.amap.com, REJECT
 
 # ======= H ======= #
-#黑料
-DOMAIN-SUFFIX,zztt45.com,PROXY
-DOMAIN-SUFFIX,zztt46.com,PROXY
-DOMAIN-SUFFIX,zztt47.com,PROXY
-DOMAIN-SUFFIX,dy18.fun,PROXY
-DOMAIN-SUFFIX,955.fun,PROXY
-DOMAIN-SUFFIX,mh18.fun,PROXY
-DOMAIN-SUFFIX,bqg.fun,PROXY
 
 # ======= I ======= #
 #ios黑科技
