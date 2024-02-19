@@ -8,4 +8,4 @@
 
 
 [Script]
-cron "12 0 * * *" script-path=https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js,enabled=true,tag=阿里网盘签到
+阿里网盘签到 = type=cron,cronexp=12 0 * * *,timeout=60,script-path=https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js,script-update-interval=0
