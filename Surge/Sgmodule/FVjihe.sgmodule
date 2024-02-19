@@ -4,7 +4,7 @@
 #!author =  
 #!homepage = https://github.com/Guding88/Script/blob/main/Readme.md
 #!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/RW689.png
-#!date = 2023-11-24 14:38:02
+#!date = 2024-02-19 20:19:30
 
 
 
@@ -14,21 +14,21 @@ hostname = %APPEND% www.evestudio.cn,www.xiaoxiongyouhao.com,flomoapp.com,apprav
 
 [Script]
 #todo清单
-http-response ^https:\/\/www\.evestudio\.cn\/todoList\/getDetailUser script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Todo.js,requires-body=1, tag=todo清单
+todo清单 = type=http-response,pattern=^https:\/\/www\.evestudio\.cn\/todoList\/getDetailUser,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Todo.js,script-update-interval=0
 
 #xxyh
-http-response ^http[s]?:\/\/www.xiaoxiongyouhao.com\/api\/vip\/index.php script-path=https://gist.githubusercontent.com/Raphael689/1425572ded14c6b6c97cd5b789085046/raw/c0acbe249403e0c06f1b4407f84bbff3d1d7861a/xxyh.js,requires-body=1, tag=xxyh
+xxyh = type=http-response,pattern=^http[s]?:\/\/www.xiaoxiongyouhao.com\/api\/vip\/index.php,requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/Raphael689/1425572ded14c6b6c97cd5b789085046/raw/xxyh.js,script-update-interval=0
 
 #Flomo解锁会员
-http-response ^https:\/\/flomoapp\.com\/api\/v1\/user\/me script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/flomo.js,requires-body=1, tag=Flomo解锁会员
+Flomo解锁会员 = type=http-response,pattern=^https:\/\/flomoapp\.com\/api\/v1\/user\/me,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/flomo.js,script-update-interval=0
 
 #Appraven Pro解锁
-http-response ^https?:\/\/appraven\.net\/AppRaven\/(app|social|buy) requires-body=1,script-path=https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/appraven.js,requires-body=1,tag=Appraven Pro解锁
+Appraven Pro解锁 = type=http-response,pattern=^https?:\/\/appraven\.net\/AppRaven\/(app|social|buy),requires-body=1,max-size=0,script-path==https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/appraven.js,script-update-interval=0
 
 #SparkMail解锁 
-http-response ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/(\$RCAnonymousID%)?(\w)*$) script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/SparkMail.js,requires-body=1,tag=SparkMail解锁
+SparkMail解锁 = type=http-response,pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/(\$RCAnonymousID%)?(\w)*$),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/SparkMail.js,script-update-interval=0
 
 #菜谱大全解锁
-http-response ^https:\/\/apiios_dq\.xiangha\.com script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/cpdq.js,requires-body=1,tag=菜谱大全解锁
+菜谱大全解锁 = type=http-response,pattern=^https:\/\/apiios_dq\.xiangha\.com,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/cpdq.js,script-update-interval=0
 
 
