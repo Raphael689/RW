@@ -7,7 +7,5 @@
 #!date = 
 
 
-
-
 [Script]
-cron "0 0 7 * * *" script-path=https://gist.githubusercontent.com/Raphael689/c3ff54b6da19884df536ead4ba90d473/raw/6ddb876a6ec825f2e4f9320dcc18dbbecfe3b005/hljk.js, tag=今日汇率, enabled=true
+今日汇率 = type=cron,cronexp=0 7 * * *,timeout=60,script-path=https://gist.githubusercontent.com/Raphael689/c3ff54b6da19884df536ead4ba90d473/raw/hljk.js,,script-update-interval=0
