@@ -11,5 +11,5 @@ hostname = %APPEND% api.m.jd.com
 
 [Script]
 #京东比价
-http-response ^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item) requires-body=1,script-path=https://gist.githubusercontent.com/Raphael689/c50b90a200b7d4c880967e6728537941/raw/3f7d712777f2161478d75807e9d2d1d023b67ef7/jdjf_price.js, tag=京东比价
+京东比价 = type=http-response,pattern=^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item),requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/Raphael689/c50b90a200b7d4c880967e6728537941/raw/jdjf_price.js,script-update-interval=0
 
