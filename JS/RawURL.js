@@ -1,97 +1,116 @@
 // ==UserScript==
-// @name         GitHub Raw Link Opener
-// @namespace    ios151
-// @version      2.6
-// @icon         https://raw.githubusercontent.com/Raphael689/RW/master/iCons/github.png
-// @description  增强 GitHub 的原始链接按钮,以及 ScriptHub 按钮和 Loon 按钮
-// @author       感谢Key,小一
+// @name         GitHub Raw Link Opener / Script-Hub edit
+// @namespace    GitHub / Script-Hub
+// @version      3.1.0
+// @description  增强 GitHub 的原始链接按钮。一键编辑 Script-Hub 生成的链接
+// @author       baby,小一,Key
 // @match        https://github.com/*
+// @match        https://script.hub/file/*
+// @match        http://script.hub/file/*
+// @match        https://script.hub/convert/*
+// @match        http://script.hub/convert/*
+// @match        http://127.0.0.1:9101/file/*
+// @match        http://127.0.0.1:9101/convert/*
 // ==/UserScript==
-
 (function () {
   "use strict";
-  setTimeout(function () {
-    const isBlobPage = window.location.pathname.includes("/blob/");
-    if (document.readyState === "complete" ||(document.readyState !== "loading" && isBlobPage)) {
-      init();
-    } else { document.addEventListener("DOMContentLoaded", function () {
-        init();
-      });
-    };
+  /\/blob\//.test(window.location.pathname) && init();
+  /\/(file|convert)\//.test(window.location.pathname) && initeh();
 
-    function init() {
-      if (isBlobPage) {
-        //按钮（放在右侧）可以自行更改
-        const rawButton = createButton("Raw", openRawLink);
-        document.body.appendChild(rawButton);
-        const scriptHubButton = createButton(
-          "ScriptHub",
-          openScriptHubLink
-        );
-        document.body.appendChild(scriptHubButton);
-        const loonButton = createButton(
-          "Loon",
-          openLoonLink
-        );
-        document.body.appendChild(loonButton);
-      }
+  function init() {
+    const rawButton = createButton("Raw", openRawLink);
+    document.body.appendChild(rawButton);
+
+    const rawViewButton = createButton("Code Hub", openRawHiLink);
+    document.body.appendChild(rawViewButton);
+
+    const scriptHubButton = createButton("ScriptHub", openScriptHubLink);
+    document.body.appendChild(scriptHubButton);
+
+    const loonButton = createButton("Loon",openLoonLink);
+    document.body.appendChild(loonButton);
+  }
+
+  function initeh() {
+    const scriptHubEdit = createButton("Script-Hub 编辑", reEditLink);
+    document.body.appendChild(scriptHubEdit);
+  }
+
+  function createButton(text, clickHandler) {
+    const button = document.createElement("button");
+    const buttonStyle = {
+      position: "fixed",
+      backgroundColor: "#00000000",
+      color: "#333",
+      border: "none",
+      padding: "1px 4px",
+      borderRadius: "3px",
+      cursor: "pointer",
+      fontSize: "10px",
+    };
+    button.innerHTML = text;
+    Object.assign(button.style, buttonStyle);
+
+    if (text === "Raw") {
+      button.style.right = "10px";
+      button.style.bottom = "80px";
     }
 
-    function createButton(text, clickHandler) {
-      const button = document.createElement("button");
-      button.innerHTML = text;
-      button.style.position = "fixed";
-      button.style.backgroundColor = "#00000000";
-      button.style.color = "#333";
-      button.style.border = "none";
-      button.style.padding = "1px 4px";
-      button.style.borderRadius = "3px";
-      button.style.cursor = "pointer";
+    if (text === "Code Hub") {
+      button.style.right = "10px";
+      button.style.bottom = "50px";
+    }
 
-      // 将 Raw 按钮放在右侧
-      if (text === "Raw") {
-        button.style.right = "10px";
-        button.style.bottom = "50px"; // 上移一些以适应页面
-      }
+    if (text === "ScriptHub") {
+      button.style.left = "10px";
+      button.style.bottom = "50px";
+    }
 
-      // 将 Loon 按钮放在右侧
-      if (text === "Loon") {
-        button.style.right = "10px";
-        button.style.bottom = "80px"; // 上移一些以适应页面
-      }
-      
-      // 将 ScriptHub 按钮放在右侧
-      if (text === "ScriptHub") {
+    if (text === "Script-Hub 编辑") {
+      button.style.right = "10px";
+      button.style.bottom = "50px";
+    }
+
+    if (text === "Loon") {
         button.style.right = "10px";
         button.style.bottom = "110px"; // 上移一些以适应页面
-      }
-
-      button.addEventListener("click", clickHandler);
-      return button;
     }
+    
+    button.addEventListener("click", clickHandler);
+    return button;
+  }
 
-    function openRawLink() {
-        // 提取
-        const rawUrl = window.location.href.replace("/blob", "").replace("github.com", "raw.githubusercontent.com");
-        window.open(rawUrl, "_blank");
-    }
+  function getRawUrl() {
+    return window.location.href
+      .replace("/blob", "")
+      .replace("github.com", "raw.githubusercontent.com");
+  }
 
-    function openLoonLink() {
+  function openRawLink() {
+    window.open(getRawUrl(), "_blank");
+  }
+
+  function openRawHiLink() {
+    const Url =
+      "https://app.linkey.store/EditCode?" + encodeURIComponent(getRawUrl());
+    window.open(Url, "_blank");
+  }
+
+  function reEditLink() {
+    const Url = window.location.href.replace(/\/(convert|file)\//, "/edit/");
+    window.open(Url, "_blank");
+  }
+  
+  function openLoonLink() {
         // 提取
         const loonUrl = window.location.href.replace("/blob", "").replace("github.com", "www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com");
         window.open(loonUrl, "_blank");
-    }
-    
-    function openScriptHubLink() {
-        const rawUrl = window.location.href
-        .replace("/blob", "")
-        .replace("github.com", "raw.githubusercontent.com");
-        // 生成 ScriptHub 链接
-        const scriptHubUrl = `http://script.hub/convert/_start_/${rawUrl}/_end_/plain.txt?type=plain-text&target=plain-text`;
-        window.open(scriptHubUrl, "_blank");
-    }
-  }, 600);
+  }
+  
+  function openScriptHubLink() {
+    const scriptHubUrl = `http://script.hub/convert/_start_/${getRawUrl()}/_end_/plain.txt?type=plain-text&target=plain-text`;
+    window.open(scriptHubUrl, "_blank");
+  }
 })();
-
 
 
