@@ -67,8 +67,8 @@
     }
 
     if (text === "Script-Hub 编辑") {
-      button.style.right = "10px";
-      button.style.bottom = "50px";
+      button.style.left = "10px";
+      button.style.bottom = "80px";
     }
 
     if (text === "Loon") {
