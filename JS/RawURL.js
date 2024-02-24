@@ -63,12 +63,12 @@
     }
 
     if (text === "ScriptHub") {
-      button.style.left = "10px";
-      button.style.bottom = "50px";
+      button.style.right = "10px";
+      button.style.bottom = "20px";
     }
 
     if (text === "Script-Hub 编辑") {
-      button.style.left = "10px";
+      button.style.right = "10px";
       button.style.bottom = "80px";
     }
 
