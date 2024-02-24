@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         GitHub Raw Link Opener / Script-Hub edit
 // @namespace    GitHub / Script-Hub
+// @icon         https://raw.githubusercontent.com/Raphael689/RW/master/iCons/github.png     
 // @version      3.1.0
 // @description  增强 GitHub 的原始链接按钮。一键编辑 Script-Hub 生成的链接
 // @author       baby,小一,Key
