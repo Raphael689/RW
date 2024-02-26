@@ -8,6 +8,6 @@
 
 [Script]
 #黑料不打烊
-黑料不打烊 = type=cron,cronexp=0 9,15 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/hlbdy.js,timeout=600
+黑料不打烊 = type=cron,cronexp="0 9,15 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/hlbdy.js,timeout=600
 #最新技術推送
-最新技術推送 = type=cron,cronexp=0 8,14,20 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/1024.js,timeout=600
+最新技術推送 = type=cron,cronexp="0 8,14,20 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/1024.js,timeout=600
