@@ -48,6 +48,8 @@ DOMAIN-SUFFIX,ivapp.cn,PROXY
 DOMAIN-SUFFIX,ossez.com,DIRECT
 #快手
 DOMAIN-SUFFIX,kwaizt.com,DIRECT
+DOMAIN-KEYWORD,kuaishou,DIRECT
+
 # ======= L ======= #
 # ======= M ======= #
 # ======= N ======= #
