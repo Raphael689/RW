@@ -8,4 +8,4 @@
 
 
 [Script]
-阿里网盘签到 = type=cron,cronexp="12 0 * * *",timeout=600,script-path=https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js,script-update-interval=0
+阿里云盘 = type=cron,cronexp=12 0 * * *,wake-system=1,timeout=600,script-path=https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js,script-update-interval=0
