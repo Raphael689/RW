@@ -8,4 +8,4 @@
 
 
 [Script]
-黑料不打烊 = type=cron,cronexp=0 9,15 * * *,timeout=60,script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/hlbdy.js,script-update-interval=0
+黑料不打烊 = type=cron,cronexp="0 9,15 * * *",timeout=60,script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/hlbdy.js,script-update-interval=0
