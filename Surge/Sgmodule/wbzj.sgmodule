@@ -8,4 +8,4 @@
 
 
 [Script]
-腕表之家 = type=cron,cronexp=1 0 * * *,timeout=60,script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/wbzj.js,script-update-interval=0
+腕表之家 = type=cron,cronexp="1 0 * * *",timeout=60,script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/wbzj.js,script-update-interval=0
