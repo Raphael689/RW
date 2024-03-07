@@ -6,4 +6,4 @@
 #!date =
 
 [Script]
-米其林会员俱乐部 = type=cron,cronexp=0 15 13 * * 1,timeout=60,script-path=https://gist.githubusercontent.com/Sliverkiss/49c5d5176cad6e47919ffe058606ed0d/raw/michelin.js,script-update-interval=0
+米其林会员俱乐部 = type=cron,cronexp="0 15 13 * * 1",timeout=60,script-path=https://gist.githubusercontent.com/Sliverkiss/49c5d5176cad6e47919ffe058606ed0d/raw/michelin.js,script-update-interval=0
