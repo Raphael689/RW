@@ -9,8 +9,8 @@
 
 [Script]
 #欧可林APP签到
-欧可林微信小程序签到 = type=cron,cronexp=1 0 * * *,timeout=60,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini.js,script-update-interval=0
+欧可林微信小程序签到 = type=cron,cronexp=1 0 * * *,timeout=180,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini.js,script-update-interval=0
 #欧可林APP10点红包
-欧可林微信小程序10点红包 = type=cron,cronexp=0 0 10 * * *,timeout=60,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini_red_envelope_am.js,script-update-interval=0
+欧可林微信小程序10点红包 = type=cron,cronexp=0 0 10 * * *,timeout=180,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini_red_envelope_am.js,script-update-interval=0
 #欧可林APP21点红包
-欧可林微信小程序21点红包 = type=cron,cronexp=0 0 21 * * *,timeout=60,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini_red_envelope_pm.js,script-update-interval=0
+欧可林微信小程序21点红包 = type=cron,cronexp=0 0 21 * * *,timeout=180,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini_red_envelope_pm.js,script-update-interval=0
