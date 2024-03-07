@@ -7,4 +7,4 @@
 #!date = 2023-11-22 9:07:04
 
 [Script]
-SonyClub = type=cron,cronexp=36 8 * * *,timeout=60,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/sony/sonyClub.js,script-update-interval=0
+SonyClub = type=cron,cronexp=36 8 * * *,timeout=180,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/sony/sonyClub.js,script-update-interval=0
