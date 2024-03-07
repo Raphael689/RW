@@ -6,4 +6,4 @@
 #!date = 
 
 [Script]
-蜜雪冰城小程序签到 = type=cron,cronexp=22 8 * * *,timeout=60,script-path=https://gist.githubusercontent.com/Sliverkiss/865c82e42a5730bb696f6700ebb94cee/raw/mxbc.js,script-update-interval=0
+蜜雪冰城小程序签到 = type=cron,cronexp="22 8 * * *",timeout=60,script-path=https://gist.githubusercontent.com/Sliverkiss/865c82e42a5730bb696f6700ebb94cee/raw/mxbc.js,script-update-interval=0
