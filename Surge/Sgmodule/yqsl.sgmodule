@@ -7,4 +7,4 @@
 #!date = 
 
 [Script]
-元气森林会员中心 = type=cron, cronexp="30 0 7 * * *", script-path=https://gist.githubusercontent.com/Raphael689/9ee95f1962459d8e85afaaf96c9b1e3c/raw/yqslhy.js
+元气森林会员中心 = type=cron,cronexp="30 0 7 * * *",wake-system=1,timeout=180,script-path=https://gist.githubusercontent.com/Raphael689/9ee95f1962459d8e85afaaf96c9b1e3c/raw/yqslhy.js,script-update-interval=0
