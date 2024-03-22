@@ -11,7 +11,7 @@
 #aaex加速器
 DOMAIN-SUFFIX,aaex.hk,PROXY
 # 爱奇艺
-HOST, api.iqiyi.com, REJECT
+DOMAIN,api.iqiyi.com,REJECT
 
 # ======= B ======= #
 #笔趣阁
