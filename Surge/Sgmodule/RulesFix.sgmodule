@@ -46,11 +46,6 @@ DOMAIN-SUFFIX,ivapp.cn,PROXY
 # ======= K ======= #
 #开源计算科学
 DOMAIN-SUFFIX,ossez.com,DIRECT
-#快手
-DOMAIN-SUFFIX,kwaizt.com,DIRECT
-DOMAIN-KEYWORD,kuaishou,DIRECT
-DOMAIN-SUFFIX,kuaishouzt.com,DIRECT
-DOMAIN-SUFFIX,inkuai.com,DIRECT
 # ======= L ======= #
 # ======= M ======= #
 # ======= N ======= #
