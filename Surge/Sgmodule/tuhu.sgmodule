@@ -7,4 +7,5 @@
 #!date = 
 
 [Script]
-途虎app(小程序)签到 = type=cron,cronexp="41 8 * * *",wake-system=1,timeout=180,script-path=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Tuhyche.js,script-update-interval=0
+途虎养车 = type=cron,cronexp=17 6 * * *,timeout=60,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/tuhu.js,script-update-interval=0
+
