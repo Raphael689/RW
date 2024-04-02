@@ -14,7 +14,7 @@ hostname = %APPEND% api.pxmage.com,wxapi.zhongyuedu.com,www.evestudio.cn,www.xia
 
 [Script]
 #ego
-ego = type=http-response,pattern=^https?:\/\/api\.pxmage\.com\/egoreader\/user\/info,requires-body=1,max-size=0,script-path=hhttps://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/ego.js,script-update-interval=0
+ego = type=http-response,pattern=^https?:\/\/api\.pxmage\.com\/egoreader\/user\/info,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/ego.js,script-update-interval=0
 
 #扁鹊中医
 扁鹊中医 = type=http-response,pattern=https://wxapi.zhongyuedu.com/zy/video_list.php,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/Bianquezy.js,script-update-interval=0
