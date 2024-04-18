@@ -7,8 +7,6 @@
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TestFlight_2.png
 #!category= iRingo
 
-[General]
-skip-proxy = %APPEND% iosapps.itunes.apple.com
 
 [Script]
 ✈ TestFlight.request = type=http-request, pattern=^https?:\/\/testflight\.apple\.com\/, requires-body=1, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/TestFlight.request.js
