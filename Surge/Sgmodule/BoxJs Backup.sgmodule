@@ -1,0 +1,15 @@
+#!name = BoxJs Backup
+#!desc =
+#!openUrl = 
+#!author = 
+#!homepage = 
+#!manual = 
+#!icon = 
+#!category = 插件类
+
+
+[Script]
+# 备份
+BoxJs备份 = type=cron,cronexp="0 10 * * *",timeout=60,script-path=https://raw.githubusercontent.com/dompling/Script/master/gist/backup.js,script-update-interval=0
+# 恢复
+BoxJs恢复 = type=cron,cronexp="0 25 * * *",timeout=60,script-path=https://raw.githubusercontent.com/dompling/Script/master/gist/restore.js,script-update-interval=0
