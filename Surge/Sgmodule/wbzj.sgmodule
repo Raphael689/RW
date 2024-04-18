@@ -5,7 +5,7 @@
 #!openurl = 
 #!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/wbzj.png
 #!date = 
-
+#!category = 签到
 
 [Script]
 腕表之家 = type=cron,cronexp="1 0 * * *",timeout=60,script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/wbzj.js,script-update-interval=0
