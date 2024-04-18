@@ -5,6 +5,7 @@
 #!homepage = 
 #!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/ysf.png
 #!date = 2023-05-22 22:11:56
+#!category = 签到
 
 [Script]
 ysf签到 = type=cron,cronexp="0 20 8 * * *",wake-system=1,timeout=600,script-path=https://gist.githubusercontent.com/Raphael689/baa8741701e186a500f9c61ce37459ff/raw/ysf.js,script-update-interval=0
