@@ -100,7 +100,6 @@ DOMAIN,ios.video.mpush.qq.com, REJECT
 DOMAIN,mtrace.qq.com, REJECT
 DOMAIN,pgdt.gtimg.cn, REJECT
 DOMAIN,vv.video.qq.com, REJECT
-IP-CIDR,47.110.187.87/32,REJECT
 #贴吧
 DOMAIN,aod-image.baidu.com,REJECT
 DOMAIN,js-ad.a.yximgs.com,REJECT
