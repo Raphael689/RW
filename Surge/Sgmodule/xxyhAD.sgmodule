@@ -5,6 +5,7 @@
 #!openurl = 
 #!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/xxyh.png
 #!date = 2023-10-30 15:31:14
+#!category = 插件类
 
 [MITM]
 hostname = %APPEND% api-access.pangolin-sdk-toutiao.com,api-v3.speedtest.cn
