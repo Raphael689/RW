@@ -5,7 +5,7 @@
 #!author = 
 #!homepage = https://github.com/Raphael689/RW/edit/master/Loon/Plugin/Loon-Skip-Proxy-Lists&Real-IP.plugin
 #!date = 
-
+#!category= 插件类
 
 [General]
 # > 跳过代理
