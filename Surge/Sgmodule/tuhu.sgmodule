@@ -5,6 +5,7 @@
 #!openurl =
 #!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/tuhu.png
 #!date = 
+#!category = 签到
 
 [Script]
 途虎养车 = type=cron,cronexp=17 6 * * *,timeout=60,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/tuhu.js,script-update-interval=0
