@@ -1,0 +1,9 @@
+#!name=Boxjs会话切换
+#!desc=
+#!openUrl=
+#!icon=
+#!category=插件类
+
+[Script]
+回话切换 = type=cron,cronexp="0 0 25 * * *",wake-system=1,timeout=180,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js,script-update-interval=0
+
