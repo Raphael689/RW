@@ -5,6 +5,7 @@
 #!openurl = 
 #!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/jd.png
 #!date = 
+#!category= 插件类
 
 [MITM]
 hostname = %APPEND% in.m.jd.com, me-api.jd.com, wqs.jd.com, lite-in.m.jd.com
