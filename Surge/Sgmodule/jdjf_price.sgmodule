@@ -5,6 +5,7 @@
 #!homepage = https://github.com/Raphael689/RW/blob/master/Loon/Plugin/jdjf_price.plugin
 #!author =
 #!date = 
+#!category= 插件类
 
 [MITM]
 hostname = %APPEND% api.m.jd.com
