@@ -1,6 +1,7 @@
 #!name = imt
 #!desc = imt
 #!date = 2023-10-09 11:02:05
+#!category= 签到
 
 [Script]
 imt = type=cron,cronexp="5 9 * * *",wake-system=1,timeout=180,script-path=https://gist.githubusercontent.com/Raphael689/d73beba416a0da7d4dce204d9c53e028/raw/imt.js,script-update-interval=0
