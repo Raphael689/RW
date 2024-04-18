@@ -5,7 +5,7 @@
 #!openurl = 
 #!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/quark.png
 #!date = 2023-11-01 16:34:31
-
+#!category = 签到
 
 [Script]
 quark = type=cron,cronexp="10 0 * * *",timeout=60,script-path=https://gist.githubusercontent.com/Sliverkiss/2694a665b4e52d8788c18394201ff3eb/raw/quarkcloud.js,script-update-interval=0
