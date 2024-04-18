@@ -4,6 +4,7 @@
 #!homepage=  
 #!icon= 
 #!date = 
+#!category= 签到
 
 [Script]
 霸王茶姬小程序签到 = type=cron,cronexp=0 6 * * *,timeout=60,script-path=https://gist.githubusercontent.com/Sliverkiss/4984f7f34d6df8bcdd1e13ecac4bba51/raw/bwcj.js,script-update-interval=0
