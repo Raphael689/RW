@@ -5,7 +5,7 @@
 #!homepage = 
 #!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/tls.png
 #!date = 
-
+#!category = 签到
 
 [Script]
 tls = type=cron,cronexp="30 0 7 * * *",timeout=60,script-path=https://gist.githubusercontent.com/Raphael689/280c508bb785a36815d327e6b7633c0c/raw/tls.js,script-update-interval=0
