@@ -9,8 +9,6 @@
 
 [Rule]
 # ======= A ======= #
-#aaex加速器
-DOMAIN-SUFFIX,aaex.hk,PROXY
 # 爱奇艺
 DOMAIN,api.iqiyi.com,REJECT
 
