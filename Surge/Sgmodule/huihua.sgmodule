@@ -1,9 +1,9 @@
-#!name = Boxjs会话切换
+#!name = BoxJs单会话切换
 #!desc =
 #!openUrl =
 #!icon =
 #!category = 插件类
 
 [Script]
-会话切换 = type=cron,cronexp="0 0 25 * * *",wake-system=1,timeout=180,script-pathhttps://gist.githubusercontent.com/Koxiu/d7e2bd6ca57a0295eb82698af608eb70/raw/huihua.js,script-update-interval=0
+BoxJs单会话切换 = type=cron,cronexp="0 0 25 * * *",wake-system=1,timeout=180,script-pathhttps://gist.githubusercontent.com/Koxiu/d7e2bd6ca57a0295eb82698af608eb70/raw/huihua.js,script-update-interval=0
 
