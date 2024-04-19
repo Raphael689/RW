@@ -33,12 +33,11 @@
 
 # ======= R ======= #
 # ======= S ======= #
-
 #surge
-DOMAIN-SUFFIX,nssurge.com,PROXY
+DOMAIN-SUFFIX,nssurge.com
 
 #scriptable
-DOMAIN,gallery.scriptable.app,PROXY
+DOMAIN,gallery.scriptable.app
 
 
 # ======= T ======= #
@@ -59,6 +58,6 @@ DOMAIN,gallery.scriptable.app,PROXY
 
 # =======   ======= #
 #
-DOMAIN,www.v2rayssr.com,PROXY
-DOMAIN,sakura.cat,PROXY
-DOMAIN,sakura.cloud,PROXY
+DOMAIN,www.v2rayssr.com
+DOMAIN,sakura.cat
+DOMAIN,sakura.cloud
