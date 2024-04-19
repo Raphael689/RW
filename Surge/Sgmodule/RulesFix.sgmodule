@@ -37,7 +37,7 @@ DOMAIN, free-aos-cdn-image.amap.com, REJECT
 
 # ======= I ======= #
 #ios黑科技
-DOMAIN-SUFFIX,ivapp.cn,PROXY
+DOMAIN,ivapp.cn,PROXY
 
 # ======= J ======= #
 # ======= K ======= #
