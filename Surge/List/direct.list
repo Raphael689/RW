@@ -1,6 +1,4 @@
 # ======= A ======= #
-# 爱奇艺
-DOMAIN,api.iqiyi.com,REJECT
 
 # ======= B ======= #
 #笔趣阁
@@ -16,12 +14,6 @@ DOMAIN-SUFFIX,amemv.com,DIRECT
 # ======= E ======= #
 # ======= F ======= #
 # ======= G ======= #
-# 工商银行 开屏广告
-DOMAIN, pageviewp.icbc.com.cn, REJECT
-# 高德地图
-DOMAIN, amap-aos-info-nogw.amap.com, REJECT
-DOMAIN, awaken.amap.com, REJECT
-DOMAIN, free-aos-cdn-image.amap.com, REJECT
 
 # ======= H ======= #
 
@@ -57,54 +49,28 @@ DOMAIN,img.subhd.la,DIRECT
 DOMAIN-SUFFIX,id6.me,DIRECT
 DOMAIN-SUFFIX,plex.tv,DIRECT
 DOMAIN-SUFFIX,plex.direct,DIRECT
-DOMAIN,googleads.g.doubleclick.net,REJECT
 #索尼headphones
 DOMAIN-SUFFIX,sony.com,DIRECT
 DOMAIN-SUFFIX,janraincapture.com,DIRECT
 DOMAIN-SUFFIX,ndmdhs.com,DIRECT
 #surge
-DOMAIN-SUFFIX,nssurge.com,PROXY
 DOMAIN-SUFFIX,fanqianxs.com,DIRECT
-#scriptable
-DOMAIN,gallery.scriptable.app,PROXY
 #SNKRS
 DOMAIN-SUFFIX,newrelic.com,DIRECT
 DOMAIN,162.247.243.24,DIRECT
 DOMAIN,moblie-collector.cell.nr-data.net,DIRECT
-# 什么值得买
-DOMAIN,api.zuihuimai.com, REJECT
 
 # ======= T ======= #
-# 腾讯视频
-DOMAIN,adsmind.gdtimg.com, REJECT
-DOMAIN,btrace.qq.com, REJECT
-DOMAIN,info4.video.qq.com, REJECT
-DOMAIN,info6.video.qq.com, REJECT
-DOMAIN,ios.video.mpush.qq.com, REJECT
-DOMAIN,mtrace.qq.com, REJECT
-DOMAIN,pgdt.gtimg.cn, REJECT
-DOMAIN,vv.video.qq.com, REJECT
-#贴吧
-DOMAIN,aod-image.baidu.com,REJECT
-DOMAIN,js-ad.a.yximgs.com,REJECT
-DOMAIN,mobads-pre-config.cdn.bcebos.com,REJECT
-DOMAIN,nadvideo2.baidu.com,REJECT
 
 # ======= U ======= #
 # ======= V ======= #
 # ======= W ======= #
-# 微博 开屏广告
-DOMAIN, adstrategy.biz.weibo.com, REJECT
-DOMAIN, kadmimage.biz.weibo.com, REJECT
-DOMAIN, sdkaction.biz.weibo.com, REJECT
-DOMAIN, sdkclick.biz.weibo.com, REJECT
-DOMAIN, sdkmonitor.biz.weibo.com, REJECT
+
 
 # ======= X ======= #
 #小绿人
 DOMAIN-SUFFIX,greenmangaming.com,DIRECT
-# 小米
-DOMAIN,sdkconfig.ad.xiaomi.com, REJECT
+
 
 # ======= Y ======= #
 #易有云
@@ -113,32 +79,11 @@ DOMAIN-SUFFIX,ddnsto.com,DIRECT
 #育碧
 DOMAIN-SUFFIX,ubi.com,DIRECT
 DOMAIN,ubistatic2-a.akamaihd.net,DIRECT
-# 优酷 & 菜鸟
-DOMAIN, adsmind.ugdtimg.com, REJECT
-DOMAIN, amdc.m.youku.com, REJECT
-DOMAIN, apiv4-iyes.youku.com, REJECT
-DOMAIN, httpdns.alicdn.com, REJECT
-DOMAIN, huichuan-mc.sm.cn, REJECT
-DOMAIN, huichuan.sm.cn, REJECT
-DOMAIN, iyes.youku.com, REJECT
-DOMAIN, m-vali.cp31.ott.cibntv.net, REJECT
-DOMAIN, mc.atm.youku.com, REJECT
-DOMAIN, vali-g1.cp31.ott.cibntv.net, REJECT
-DOMAIN, vali-ugc.cp31.ott.cibntv.net, REJECT
-DOMAIN, yk-ssp.ad.youku.com, REJECT
-DOMAIN, ykad-data.youku.com, REJECT
-# 云闪付 开屏广告
-DOMAIN, ads.95516.com, REJECT
-DOMAIN, cm-10-138.getui.com, REJECT
-DOMAIN, sdk-conf.getui.com, REJECT
-DOMAIN, sdk.open.talk.getui.net, REJECT
-DOMAIN, switch.cup.com.cn, REJECT
-DOMAIN, tysdk.95516.com, REJECT
+
+
 
 # ======= Z ======= #
-# 字节跳动
-DOMAIN, ad.zijieapi.com, REJECT
-DOMAIN-KEYWORD, -ad-sign.byteimg.com, REJECT
+
 
 # =======   ======= #
 #
@@ -146,9 +91,6 @@ DOMAIN,zqzess.qicp.vip,DIRECT
 #
 DOMAIN-SUFFIX,laiyifa.org,DIRECT
 #
-DOMAIN,www.v2rayssr.com,PROXY
-DOMAIN,sakura.cat,PROXY
-DOMAIN,sakura.cloud,PROXY
 DOMAIN,cmshow.gtimg.cn,DIRECT
 DOMAIN,98.142.140.135,DIRECT
 DOMAIN,104.41.164.226,DIRECT
@@ -159,10 +101,4 @@ DOMAIN,tu.511.la,DIRECT
 #
 DOMAIN-SUFFIX,whitemoon.top,DIRECT
 DOMAIN-SUFFIX,push.apple.com,DIRECT
-DOMAIN-SUFFIX,jddebug.com,REJECT
-#
-DOMAIN,adjd.scdsvdsczx.cn,REJECT
-DOMAIN,rr3---sn-ni57rn7d.gvt1.com,REJECT
-DOMAIN,pagead2.googleadservices.com,REJECT
-#91md.me
-DOMAIN-SUFFIX,fxr3goy.yjk1qh.com,REJECT
+
