@@ -49,8 +49,6 @@ DOMAIN-SUFFIX,ossez.com,DIRECT
 DOMAIN-SUFFIX,oclean.com,DIRECT
 
 # ======= P ======= #
-#pikpak网盘
-DOMAIN,access.mypikpak.com,PROXY
 
 # ======= Q ======= #
 #雀魂麻将
