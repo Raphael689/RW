@@ -1,6 +1,6 @@
 # ======= A ======= #
 # 爱奇艺
-DOMAIN,api.iqiyi.com,REJECT
+DOMAIN,api.iqiyi.com
 
 # ======= B ======= #
 
@@ -12,11 +12,11 @@ DOMAIN,api.iqiyi.com,REJECT
 # ======= F ======= #
 # ======= G ======= #
 # 工商银行 开屏广告
-DOMAIN, pageviewp.icbc.com.cn, REJECT
+DOMAIN, pageviewp.icbc.com.cn
 # 高德地图
-DOMAIN, amap-aos-info-nogw.amap.com, REJECT
-DOMAIN, awaken.amap.com, REJECT
-DOMAIN, free-aos-cdn-image.amap.com, REJECT
+DOMAIN, amap-aos-info-nogw.amap.com
+DOMAIN, awaken.amap.com
+DOMAIN, free-aos-cdn-image.amap.com
 
 # ======= H ======= #
 
@@ -36,78 +36,74 @@ DOMAIN, free-aos-cdn-image.amap.com, REJECT
 # ======= R ======= #
 # ======= S ======= #
 #手机号免密验证登陆(blackmatrix7-Advertising_Domain源错误)
-DOMAIN,googleads.g.doubleclick.net,REJECT
+DOMAIN,googleads.g.doubleclick.net
 # 什么值得买
-DOMAIN,api.zuihuimai.com, REJECT
+DOMAIN,api.zuihuimai.com
 
 # ======= T ======= #
 # 腾讯视频
-DOMAIN,adsmind.gdtimg.com, REJECT
-DOMAIN,btrace.qq.com, REJECT
-DOMAIN,info4.video.qq.com, REJECT
-DOMAIN,info6.video.qq.com, REJECT
-DOMAIN,ios.video.mpush.qq.com, REJECT
-DOMAIN,mtrace.qq.com, REJECT
-DOMAIN,pgdt.gtimg.cn, REJECT
-DOMAIN,vv.video.qq.com, REJECT
+DOMAIN,adsmind.gdtimg.com
+DOMAIN,btrace.qq.com
+DOMAIN,info4.video.qq.com
+DOMAIN,info6.video.qq.com
+DOMAIN,ios.video.mpush.qq.com
+DOMAIN,mtrace.qq.com
+DOMAIN,pgdt.gtimg.cn
+DOMAIN,vv.video.qq.com
 #贴吧
-DOMAIN,aod-image.baidu.com,REJECT
-DOMAIN,js-ad.a.yximgs.com,REJECT
-DOMAIN,mobads-pre-config.cdn.bcebos.com,REJECT
-DOMAIN,nadvideo2.baidu.com,REJECT
+DOMAIN,aod-image.baidu.com
+DOMAIN,js-ad.a.yximgs.com
+DOMAIN,mobads-pre-config.cdn.bcebos.com
+DOMAIN,nadvideo2.baidu.com
 
 # ======= U ======= #
 # ======= V ======= #
 # ======= W ======= #
 # 微博 开屏广告
-DOMAIN, adstrategy.biz.weibo.com, REJECT
-DOMAIN, kadmimage.biz.weibo.com, REJECT
-DOMAIN, sdkaction.biz.weibo.com, REJECT
-DOMAIN, sdkclick.biz.weibo.com, REJECT
-DOMAIN, sdkmonitor.biz.weibo.com, REJECT
+DOMAIN, adstrategy.biz.weibo.com
+DOMAIN, kadmimage.biz.weibo.com
+DOMAIN, sdkaction.biz.weibo.com
+DOMAIN, sdkclick.biz.weibo.com
+DOMAIN, sdkmonitor.biz.weibo.com
 
 # ======= X ======= #
 # 小米
-DOMAIN,sdkconfig.ad.xiaomi.com, REJECT
+DOMAIN,sdkconfig.ad.xiaomi.com
 
 # ======= Y ======= #
 # 优酷 & 菜鸟
-DOMAIN, adsmind.ugdtimg.com, REJECT
-DOMAIN, amdc.m.youku.com, REJECT
-DOMAIN, apiv4-iyes.youku.com, REJECT
-DOMAIN, httpdns.alicdn.com, REJECT
-DOMAIN, huichuan-mc.sm.cn, REJECT
-DOMAIN, huichuan.sm.cn, REJECT
-DOMAIN, iyes.youku.com, REJECT
-DOMAIN, m-vali.cp31.ott.cibntv.net, REJECT
-DOMAIN, mc.atm.youku.com, REJECT
-DOMAIN, vali-g1.cp31.ott.cibntv.net, REJECT
-DOMAIN, vali-ugc.cp31.ott.cibntv.net, REJECT
-DOMAIN, yk-ssp.ad.youku.com, REJECT
-DOMAIN, ykad-data.youku.com, REJECT
+DOMAIN, adsmind.ugdtimg.com
+DOMAIN, amdc.m.youku.com
+DOMAIN, apiv4-iyes.youku.com
+DOMAIN, httpdns.alicdn.com
+DOMAIN, huichuan-mc.sm.cn
+DOMAIN, huichuan.sm.cn
+DOMAIN, iyes.youku.com
+DOMAIN, m-vali.cp31.ott.cibntv.net
+DOMAIN, mc.atm.youku.com
+DOMAIN, vali-g1.cp31.ott.cibntv.net
+DOMAIN, vali-ugc.cp31.ott.cibntv.net
+DOMAIN, yk-ssp.ad.youku.com
+DOMAIN, ykad-data.youku.com
 # 云闪付 开屏广告
-DOMAIN, ads.95516.com, REJECT
-DOMAIN, cm-10-138.getui.com, REJECT
-DOMAIN, sdk-conf.getui.com, REJECT
-DOMAIN, sdk.open.talk.getui.net, REJECT
-DOMAIN, switch.cup.com.cn, REJECT
-DOMAIN, tysdk.95516.com, REJECT
+DOMAIN, ads.95516.com
+DOMAIN, cm-10-138.getui.com
+DOMAIN, sdk-conf.getui.com
+DOMAIN, sdk.open.talk.getui.net
+DOMAIN, switch.cup.com.cn
+DOMAIN, tysdk.95516.com
 
 # ======= Z ======= #
 # 字节跳动
-DOMAIN, ad.zijieapi.com, REJECT
-DOMAIN-KEYWORD, -ad-sign.byteimg.com, REJECT
+DOMAIN, ad.zijieapi.com
+DOMAIN-KEYWORD, -ad-sign.byteimg.com
 
 # =======   ======= #
 #
-DOMAIN,cmshow.gtimg.cn,DIRECT
-DOMAIN,98.142.140.135,DIRECT
-DOMAIN,104.41.164.226,DIRECT
+DOMAIN-SUFFIX,jddebug.com
 #
-DOMAIN-SUFFIX,jddebug.com,REJECT
-#
-DOMAIN,adjd.scdsvdsczx.cn,REJECT
-DOMAIN,rr3---sn-ni57rn7d.gvt1.com,REJECT
-DOMAIN,pagead2.googleadservices.com,REJECT
+DOMAIN,adjd.scdsvdsczx.cn
+DOMAIN,rr3---sn-ni57rn7d.gvt1.com
+DOMAIN,pagead2.googleadservices.com
 #91md.me
-DOMAIN-SUFFIX,fxr3goy.yjk1qh.com,REJECT
+DOMAIN-SUFFIX,fxr3goy.yjk1qh.com
