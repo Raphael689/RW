@@ -9,4 +9,4 @@
 
 [Script]
 ##白药生活+
-白药生活+ = type=cron,cronexp=17 1 7 * * *,timeout=60,script-path=https://gist.githubusercontent.com/Raphael689/deaab991ba4edf812e64e2179650f408/raw/bysh.js,script-update-interval=0
+白药生活+ = type=cron,cronexp="17 1 7 * * *",timeout=60,script-path=https://gist.githubusercontent.com/Raphael689/deaab991ba4edf812e64e2179650f408/raw/bysh.js,script-update-interval=0
