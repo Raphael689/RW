@@ -47,6 +47,24 @@ DOMAIN, free-aos-cdn-image.amap.com
 # ======= P ======= #
 
 # ======= Q ======= #
+# QQ音乐去广告
+DOMAIN,adstats.tencentmusic.com
+DOMAIN,ad.tencentmusic.com
+DOMAIN,adcdn.tencentmusic.com
+DOMAIN,adexpo.tencentmusic.com
+DOMAIN,adclick.tencentmusic.com
+DOMAIN,otheve.beacon.qq.com
+DOMAIN,monitor.music.qq.com
+DOMAIN,stat.y.qq.com
+DOMAIN,tmead.y.qq.com
+DOMAIN,oth.str.mdt.qq.com
+DOMAIN,h.trace.qq.com
+DOMAIN,tmead.y.qq.com
+DOMAIN-SUFFIX,imtmp.net
+DOMAIN,sdk.e.qq.com
+DOMAIN,p.l.qq.com
+DOMAIN,us.l.qq.com
+DOMAIN,tangram.e.qq.com
 
 # ======= R ======= #
 # ======= S ======= #
