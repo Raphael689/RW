@@ -1,5 +1,5 @@
 #!name = BoxJs会话切换
-#!desc = BoxJs内多会话切换，argument
+#!desc = BoxJs内多会话切换，快捷指令参数、模块参数(argument=xxx,xxx)
 #!openUrl = 
 #!icon =
 #!category = 插件类
