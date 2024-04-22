@@ -10,4 +10,4 @@
 
 [Script]
 ##高德地图
-高德地图签到 = type=cron,cronexp=40 9 * * *,timeout=60,script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js,script-update-interval=0
+高德地图签到 = type=cron,cronexp="40 9 * * *",timeout=60,script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js,script-update-interval=0
