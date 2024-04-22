@@ -8,4 +8,4 @@
 
 
 [Script]
-今日汇率 = type=cron,cronexp=0 7 * * *,timeout=60,script-path=https://gist.githubusercontent.com/Raphael689/c3ff54b6da19884df536ead4ba90d473/raw/hljk.js,,script-update-interval=0
+今日汇率 = type=cron,cronexp="0 7 * * *",timeout=60,script-path=https://gist.githubusercontent.com/Raphael689/c3ff54b6da19884df536ead4ba90d473/raw/hljk.js,,script-update-interval=0
