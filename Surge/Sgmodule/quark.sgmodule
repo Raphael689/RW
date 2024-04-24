@@ -8,4 +8,4 @@
 #!category = 签到
 
 [Script]
-quark = type=cron,cronexp="10 0 * * *",timeout=60,script-path=https://gist.githubusercontent.com/Sliverkiss/1589f69e675019b0b685a57a89de9ea5/raw/quarkV2.js,script-update-interval=0
+quarkv2 = type=cron,cronexp="10 0 * * *",timeout=60,script-path=https://gist.githubusercontent.com/Sliverkiss/1589f69e675019b0b685a57a89de9ea5/raw/quarkV2.js,script-update-interval=0
