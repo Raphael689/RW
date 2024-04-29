@@ -6,5 +6,3 @@
 [Script]
 浙江联通 定时签到 = type=cron, cronexp="6 10,20 * * *", script-path=https://gist.githubusercontent.com/Raphael689/906ec5262dcbfe8ff89602ce75d434c7/raw/zj.js, timeout=60, engine=jsc
 
-[MITM]
-hostname = %APPEND% wechat.zj186.com
