@@ -10,7 +10,7 @@
 [General]
 # > 跳过代理
 # 跳过某个域名或者 IP 段，这些目标主机将不会由 Loon Proxy 处理。
-skip-proxy = %APPEND% 192.168.50.0/24, 10.0.0.0/24, 192.168.0.0/16, 192.168.122.1/32, 193.168.0.1/32, ::1/128, fe80::/10, captive.apple.com, e.crashlytics.com, iosapps.itunes.apple.com, www.baidu.com, yunbusiness.ccb.com, wxh.wo.cn, gate.lagou.com, www.abchina.com.cn, www.shanbay.com, login-service.mobile-bank.psbc.com, mobile-bank.psbc.com, api.nike.com.cn,auth-asg.aliyuncs.com,tdsdk.cpatrk.net,mobile-collector.newrelic.com,access1.tps.tencent.com,snkrs.services.nike.com.cn,*.nike.com.cn,162.247.243.24
+skip-proxy = %APPEND% api.revenuecat.com, 192.168.50.0/24, 10.0.0.0/24, 192.168.0.0/16, 192.168.122.1/32, 193.168.0.1/32, ::1/128, fe80::/10, captive.apple.com, e.crashlytics.com, iosapps.itunes.apple.com, www.baidu.com, yunbusiness.ccb.com, wxh.wo.cn, gate.lagou.com, www.abchina.com.cn, www.shanbay.com, login-service.mobile-bank.psbc.com, mobile-bank.psbc.com, api.nike.com.cn,auth-asg.aliyuncs.com,tdsdk.cpatrk.net,mobile-collector.newrelic.com,access1.tps.tencent.com,snkrs.services.nike.com.cn,*.nike.com.cn,162.247.243.24
 
 ## www.baidu.com：网上国网、多看阅读、顺丰金融、广东农信、丰云行、中国银行缤纷生活、通信行程卡app、趣智校园、趣听音乐、光大手机银行、掌上12333、沃视频
 ## yunbusiness.ccb.com：建行生活
