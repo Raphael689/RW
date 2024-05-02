@@ -5,7 +5,7 @@
 #!openurl = 
 #!icon = 
 #!date = 2024-05-02 09:09
-#!category = 分组
+#!category = 签到
 
 [Script]
 QQ音乐 = type=cron, cronexp="25 7-12/1 * * *", script-path=https://raw.githubusercontent.com/WowYiJiu/Personal/main/Script/qqMusic.js, timeout=60, wake-system=1
