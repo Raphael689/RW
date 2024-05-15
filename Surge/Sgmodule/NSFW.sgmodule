@@ -16,3 +16,7 @@
 𝐉𝐀𝐕𝐃𝐚𝐲每日推荐 = type=cron,cronexp="0 22 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/javday.js,timeout=600
 #美图鉴赏
 美图鉴赏 = type=cron, cronexp="30 20 * * *", script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/meitu/meitu.js, timeout=600, wake-system=1
+meitu = type=http-request, pattern=^https?:\/\/mei\.tu, script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/meitu/meitu.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% mei.tu
