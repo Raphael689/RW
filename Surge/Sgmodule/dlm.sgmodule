@@ -8,4 +8,4 @@
 #!category= 签到
 
 [Script]
-达美乐 = type=cron,cronexp="10 10 * * *",timeout=60,script-path=https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js,script-update-interval=0
+达美乐 = type=cron,cronexp="1 11 * * *",timeout=60,script-path=https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js,script-update-interval=0
