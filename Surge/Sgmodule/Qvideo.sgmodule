@@ -9,4 +9,4 @@
 
 [Script]
 # 腾讯视频签到
-cron "0 5 * * *" script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/videoqq.js, tag=腾讯视频
+腾讯视频 = type=cron,cronexp="5 7 * * *",timeout=180,script-path=https://raw.githubusercontent.com/WowYiJiu/Personal/main/Script/tenvideo.js,script-update-interval=0
