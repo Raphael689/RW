@@ -8,4 +8,4 @@
 #!category = 签到
 
 [Script]
-顺丰签到 = type=cron, cronexp="5 6 * * *", timeout=600,script-path=https://gist.githubusercontent.com/Sliverkiss/1fb1cf9cd7486d30752b1ba29b871e37/raw/sfsy.js
+顺丰签到 = type=cron, cronexp="5 6,16 * * *", timeout=600,script-path=https://gist.githubusercontent.com/Sliverkiss/1fb1cf9cd7486d30752b1ba29b871e37/raw/sfsy.js
