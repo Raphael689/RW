@@ -254,7 +254,7 @@
     {"name": "九九美剧|G","type": 1,"api": "https://www.999meiju.com/api.php/provide/vod/"},
     {"name": "YT影视|G","type": 1,"api": "http://ytys.cc/api.php/provide/vod/"},
     {"name": "火星2048|G","type": 1,"api": "https://www.hx2048.com/api.php/provide/vod/"},
-    {"name": "游艺资源|G",""type": 1,api": "http://360.hexh.ink/api.php/provide/vod/"},
+    {"name": "游艺资源|G","type": 1,"api": "http://360.hexh.ink/api.php/provide/vod/"},
     {"name": "三零资源|G","type": 1,"api": "http://api.000zy.com/provide/vod/"},
     {"name": "萌果资源|G","type": 1,"api": "http://api.appearoo.top/api.php/provide/vod/"},
     {"name": "艾特|G","type": 1,"api": "http://tv.aitesucai.xyz/api.php/provide/vod/at/json"},
