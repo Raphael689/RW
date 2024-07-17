@@ -1,4 +1,4 @@
-[
+{"sites": [
     {"name": "黑木耳","api": "https://www.heimuer.tv/api.php/provide/vod/","note": "需要代理"},
     {"name": "海外","api": "https://hw8.live/api.php/provide/vod/","note": "需要代理"},
     {"name": "海外看资源","api": "https://haiwaikan.com/api.php/provide/vod/","note": "需要代理"},
@@ -289,4 +289,4 @@
     {"name": "麻豆视频|AV|G","api": "http://www.madouse.la/api.php/provide/vod/"},
     {"name": "辣椒资源|AV|G","api": "https://apilj.com/api.php/provide/vod/"},
     {"name": "甜蜜资源|AV|G","api": "https://timizy10.cc/api.php/provide/vod/"},
-]
+]}
