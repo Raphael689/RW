@@ -1,13 +1,12 @@
-#!name = 京东比价通知
-#!desc = 京东比价
-#!author = 
-#!homepage = 
-#!openurl = 
+#!name = 京东比价
+#!desc = 在京东应用内嵌入比价信息，点击商品标题即可查看。仅支持京东的标准模式，且需要应用版本不高于12.4.3。
+#!author = 苍井灰灰[https://github.com/wf021325],githubdulong[https://github.com/githubdulong]
 #!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/jd.png
-#!date = 
+#!category = 插件类
+#!tag = 功能增强
 
 [Script]
-http-response ^https?:\/\/api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) requires-body=1,script-path=https://raw.githubusercontent.com/wf021325/qx/master/js/jd_price.js, tag=京东比价
+京东比价 = type=http-response, pattern=^https?:\/\/api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig), script-path=https://kelee.one/Resource/Script/JD/JD_Price.js, requires-body=true
 
 [MITM]
 hostname = %APPEND% api.m.jd.com
