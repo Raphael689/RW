@@ -1,0 +1,13 @@
+#!name = 京东比价通知
+#!desc = 京东比价
+#!author = 
+#!homepage = 
+#!openurl = 
+#!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/jd.png
+#!date = 
+
+[Script]
+http-response ^https?:\/\/api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) requires-body=1,script-path=https://raw.githubusercontent.com/wf021325/qx/master/js/jd_price.js, tag=京东比价
+
+[MITM]
+hostname = %APPEND% api.m.jd.com
