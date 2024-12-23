@@ -78,6 +78,7 @@
     if (text === "Loon") {
         button.style.right = "10px";
         button.style.bottom = "110px"; // 上移一些以适应页面
+    }
       
     if (text === "Surge") {
         button.style.right = "10px";
@@ -108,7 +109,7 @@
     const Url = window.location.href.replace(/\/(convert|file)\//, "/edit/");
     window.open(Url, "_blank");
   }
-  
+
   function openLoonLink() {
         // 提取
         const loonUrl = window.location.href.replace("/blob", "").replace("github.com", "www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com");
@@ -120,7 +121,7 @@
         const surgeUrl = window.location.href.replace("/blob", "").replace("github.com", "api.boxjs.app/surge/install-module?url=https://raw.githubusercontent.com");
         window.open(surgeUrl, "_blank");
   }
-    
+
   function openScriptHubLink() {
     const scriptHubUrl = `http://script.hub/convert/_start_/${getRawUrl()}/_end_/plain.txt?type=plain-text&target=plain-text`;
     window.open(scriptHubUrl, "_blank");
