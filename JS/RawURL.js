@@ -56,32 +56,32 @@
     Object.assign(button.style, buttonStyle);
 
     if (text === "Raw") {
-      button.style.right = "10px";
+      button.style.left = "10px";
       button.style.bottom = "80px";
     }
 
     if (text === "Code Hub") {
-      button.style.right = "10px";
+      button.style.left = "10px";
       button.style.bottom = "50px";
     }
 
     if (text === "ScriptHub") {
-      button.style.right = "10px";
+      button.style.left = "10px";
       button.style.bottom = "20px";
     }
 
     if (text === "Script-Hub 编辑") {
-      button.style.right = "10px";
+      button.style.left = "10px";
       button.style.bottom = "80px";
     }
 
     if (text === "Loon") {
-        button.style.right = "10px";
+        button.style.left = "10px";
         button.style.bottom = "110px"; // 上移一些以适应页面
     }
 
     if (text === "Surge") {
-        button.style.right = "10px";
+        button.style.left = "10px";
         button.style.bottom = "140px"; // 上移一些以适应页面
     }
     
