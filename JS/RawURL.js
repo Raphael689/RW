@@ -30,7 +30,7 @@
 
     const loonButton = createButton("Loon",openLoonLink);
     document.body.appendChild(loonButton);
-    
+
     const surgeButton = createButton("Surge",openSurgeLink);
     document.body.appendChild(surgeButton);
   }
@@ -79,7 +79,7 @@
         button.style.right = "10px";
         button.style.bottom = "110px"; // 上移一些以适应页面
     }
-      
+
     if (text === "Surge") {
         button.style.right = "10px";
         button.style.bottom = "140px"; // 上移一些以适应页面
