@@ -31,7 +31,7 @@
     const loonButton = createButton("Loon",openLoonLink);
     document.body.appendChild(loonButton);
     
-    const surgeButton = createButton("surge",opensurgeLink);
+    const surgeButton = createButton("Surge",openSurgeLink);
     document.body.appendChild(surgeButton);
   }
 
