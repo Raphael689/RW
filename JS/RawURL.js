@@ -30,6 +30,9 @@
 
     const loonButton = createButton("Loon",openLoonLink);
     document.body.appendChild(loonButton);
+    
+    const surgeButton = createButton("surge",opensurgeLink);
+    document.body.appendChild(surgeButton);
   }
 
   function initeh() {
@@ -75,6 +78,10 @@
     if (text === "Loon") {
         button.style.right = "10px";
         button.style.bottom = "110px"; // 上移一些以适应页面
+      
+    if (text === "Surge") {
+        button.style.right = "10px";
+        button.style.bottom = "140px"; // 上移一些以适应页面
     }
     
     button.addEventListener("click", clickHandler);
@@ -107,7 +114,13 @@
         const loonUrl = window.location.href.replace("/blob", "").replace("github.com", "www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com");
         window.open(loonUrl, "_blank");
   }
-  
+
+  function openSurgeLink() {
+        // 提取
+        const surgeUrl = window.location.href.replace("/blob", "").replace("github.com", "api.boxjs.app/surge/install-module?url=https://raw.githubusercontent.com");
+        window.open(surgeUrl, "_blank");
+  }
+    
   function openScriptHubLink() {
     const scriptHubUrl = `http://script.hub/convert/_start_/${getRawUrl()}/_end_/plain.txt?type=plain-text&target=plain-text`;
     window.open(scriptHubUrl, "_blank");
