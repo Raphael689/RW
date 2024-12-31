@@ -16,7 +16,8 @@
 # ======= A ======= #
 
 # ======= B ======= #
-
+#boxjs.app
+DOMAIN-SUFFIX,boxjs.app
 
 # ======= C ======= #
 #草榴
@@ -53,6 +54,9 @@ DOMAIN-SUFFIX,cdn.statically.io
 
 
 # ======= R ======= #
+#revenuecat.com
+DOMAIN-SUFFIX,revenuecat.com
+
 # ======= S ======= #
 #surge
 DOMAIN-SUFFIX,nssurge.com
