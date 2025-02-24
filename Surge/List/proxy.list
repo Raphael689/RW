@@ -28,12 +28,15 @@ DOMAIN-SUFFIX,boxjs.app
 DOMAIN-SUFFIX,1024xp.com
 DOMAIN-SUFFIX,ds2tk8.xyz
 # ======= D ======= #
+#大地
+DOMAIN-SUFFIX,dadiapi.com
 
 
 # ======= E ======= #
 # ======= F ======= #
 # ======= G ======= #
-
+#国色
+DOMAIN-SUFFIX,guosezy.com
 
 # ======= H ======= #
 #黑料
@@ -49,16 +52,19 @@ DOMAIN-SUFFIX,huaduys.org
 # ======= J ======= #
 #javday
 DOMAIN-SUFFIX,javday.tv
-DOMAIN-SUFFIX,cdn.statically.io
+DOMAIN-SUFFIX,statically.io
 # ======= K ======= #
 
 # ======= L ======= #
+#辣椒资源
+DOMAIN-SUFFIX,apilj.com
 # ======= M ======= #
 #missav
 DOMAIN-SUFFIX,missav.ai
 DOMAIN-SUFFIX,missav.ws
 #madou
 DOMAIN-SUFFIX,madou.club
+DOMAIN-SUFFIX,madouse.la
 
 # ======= N ======= #
 # ======= O ======= #
@@ -76,9 +82,10 @@ DOMAIN-SUFFIX,revenuecat.com
 # ======= S ======= #
 #surge
 DOMAIN-SUFFIX,nssurge.com
-
 #scriptable
 DOMAIN,gallery.scriptable.app
+#色窝
+DOMAIN-SUFFIX,sewozyapi.com
 
 
 # ======= T ======= #
@@ -87,6 +94,8 @@ DOMAIN-SUFFIX,7340hsck.cc
 DOMAIN-SUFFIX,hscangku.com
 DOMAIN-SUFFIX,920ck.us
 DOMAIN-SUFFIX,920ck.usundefined
+#甜蜜资源
+DOMAIN-SUFFIX,timizy10.cc
 
 # ======= U ======= #
 # ======= V ======= #
@@ -101,6 +110,8 @@ DOMAIN-SUFFIX,wuso.me
 
 
 # ======= Z ======= #
+#最色资源
+DOMAIN-SUFFIX,zszyw.top
 
 
 # =======   ======= #
