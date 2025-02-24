@@ -14,6 +14,10 @@
 
 
 # ======= A ======= #
+#avtoday
+DOMAIN-SUFFIX,avtoday.io
+#avdb
+DOMAIN-SUFFIX,avdbapi.com
 
 # ======= B ======= #
 #boxjs.app
@@ -34,6 +38,12 @@ DOMAIN-SUFFIX,ds2tk8.xyz
 # ======= H ======= #
 #黑料
 DOMAIN-SUFFIX,155.fun
+#hongkongdollvideo
+DOMAIN-SUFFIX,hongkongdollvideo.com
+#hanime1
+DOMAIN-SUFFIX,hanime1.me
+#花都
+DOMAIN-SUFFIX,huaduys.org
 # ======= I ======= #
 
 # ======= J ======= #
@@ -47,6 +57,8 @@ DOMAIN-SUFFIX,cdn.statically.io
 #missav
 DOMAIN-SUFFIX,missav.ai
 DOMAIN-SUFFIX,missav.ws
+#madou
+DOMAIN-SUFFIX,madou.club
 
 # ======= N ======= #
 # ======= O ======= #
@@ -70,6 +82,10 @@ DOMAIN,gallery.scriptable.app
 
 
 # ======= T ======= #
+#桃花族
+DOMAIN-SUFFIX,7340hsck.cc
+DOMAIN-SUFFIX,hscangku.com
+DOMAIN-SUFFIX,920ck.us
 
 # ======= U ======= #
 # ======= V ======= #
