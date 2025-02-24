@@ -298,7 +298,7 @@
     {"name": "桃花族|AV","type": 3,"api": "csp_taohuazu","ext": "https://raw.githubusercontent.com/Yswag/xptv-extensions/main/js/taohuazu.js"},
     {"name": "花都影視|AV","type": 3,"api": "csp_hdys","ext": "https://raw.githubusercontent.com/Yswag/xptv-extensions/main/js/hdys.js"},
     {"name": "avdb|AV","type": 3,"api": "csp_avdb","ext": "https://raw.githubusercontent.com/Yswag/xptv-extensions/main/js/avdb.js"},
-    {"name": "missav|AV","type": 3,"api": "csp_missav1","ext": "https://raw.githubusercontent.com/fengtangyuan/nodejs/refs/heads/main/missav.js"}
+    {"name": "missav|AV","type": 3,"api": "csp_missav1","ext": "https://raw.githubusercontent.com/fengtangyuan/nodejs/refs/heads/main/missav.js"},
     {"name": "秋名山見(live)","type": 3,"api": "csp_harunasan","ext": "https://gist.githubusercontent.com/Yswag/d9f072b75dab5b1b107c523dd148eea3/raw/harunasan.js"},
     {"name": "SupJav","type": 3,"api": "csp_SupJav","ext": "https://raw.githubusercontent.com/fangkuia/XPTV/refs/heads/main/js/SupJav.js"},
     {"name": "91jav (無海報)","type": 3,"api": "csp_91jav","ext": "https://raw.githubusercontent.com/Yswag/xptv-extensions/main/js/91jav.js"},
