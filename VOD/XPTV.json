@@ -310,4 +310,6 @@
     {"name": "Taiav|AV","type": 3,"api": "csp_Taiav","ext": "https://raw.githubusercontent.com/fangkuia/XPTV/refs/heads/main/js/taiav.js"},
     {"name": "JavMove|AV","type": 3,"api": "csp_JavMove","ext": "https://raw.githubusercontent.com/fangkuia/XPTV/refs/heads/main/js/javmove.js"},
     {"name": "有爱爱|AV","type": 3,"api": "csp_uaa","ext": "https://raw.githubusercontent.com/fangkuia/XPTV/refs/heads/main/js/uua.js"},
+    {"name": "星芽短劇","type": 3,"api": "csp_xingya","ext": "https://raw.githubusercontent.com/Yswag/xptv-extensions/main/js/xingya.js","ext2": "https://infuseku.xyz/vod/xingya.js"},
+    {"name": "在线之家","type": 3,"api": "csp_xxzj","ext": "https://infuseku.xyz/vod/zxzj.js","ext2": "https://infuseku.xyz/vod/zxzj2.js"},
 ]}
