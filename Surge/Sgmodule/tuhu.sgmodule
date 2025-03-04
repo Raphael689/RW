@@ -8,5 +8,5 @@
 #!category = 签到
 
 [Script]
-途虎养车 = type=cron,cronexp=17 6 * * *,timeout=60,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/tuhu.js,script-update-interval=0
+途虎养车 = type=cron,cronexp=17 7 * * *,timeout=60,script-path=https://raw.githubusercontent.com/Raphael689/RW/refs/heads/main/JS/tuhu.js,script-update-interval=0
 
