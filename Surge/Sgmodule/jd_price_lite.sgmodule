@@ -1,13 +1,16 @@
-#!name = 京东比价通知
-#!desc = 京东比价
-#!author = 
-#!homepage = 
-#!openurl = 
-#!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/jd.png
-#!date = 
+#!name=京东比价
+#!desc=原始/表格/弹窗，原始和表格不能同时开启, 点击商品详情页触发脚本
+#!category=功能增强
+#!author=小白脸,灰灰
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/JD.png
+#!date=2025-04-19
+#!arguments=GetToken:true,TableVersion:true,OriginalVersion:false,Pop-upWindowVersion:false
+#!arguments-desc=[参数设置]\n⓵ GetToken: 运行【慢慢买】APP，点击【我的】获取token;\n⓶ TableVersion: 京东比价表格版;\n⓷ OriginalVersion: 京东比价原始版;\n⓸ Pop-upWindowVersion: 京东比价弹窗版
 
-[Script]
-京东比价通知 = type=http-request,pattern=^https:\/\/in\.m\.jd\.com\/product\/graphext\/\d+\.html,requires-body=1,max-size=0,timeout=60,debug=1,script-path=https://raw.githubusercontent.com/mw418/Loon/main/script/jd_price.js
-慢慢买token= type=http-request,pattern=^https?:\/\/apapia-sqk-weblogic\.manmanbuy\.com\/baoliao\/center\/menu$,requires-body=1,max-size=0,timeout=60,debug=1,script-pathhttps://raw.githubusercontent.com/mw418/Loon/main/script/jd_price.js
 [MITM]
-hostname = %APPEND% in.m.jd.com, apapia-sqk-weblogic.manmanbuy.com
+hostname=in.m.jd.com, apapia-sqk-weblogic.manmanbuy.com
+[Script]
+http-request ^https?:\/\/apapia-sqk-weblogic\.manmanbuy\.com\/baoliao\/center\/menu$ script-path=https://raw.githubusercontent.com/mw418/Loon/main/script/jd_price.js,requires-body=true, timeout=60, tag=京东比价获取token, enable={{{GetToken}}}
+http-response ^https:\/\/in\.m\.jd\.com\/product\/graphext\/\d+\.html script-path=https://raw.githubusercontent.com/githubdulong/Script/master/jd_price.js, tag=京东比价表格版, requires-body=true, enable={{{TableVersion}}}
+http-response ^https:\/\/in\.m\.jd\.com\/product\/graphext\/\d+\.html script-path=https://raw.githubusercontent.com/wf021325/qx/master/js/jd_price.js, tag=京东比价原始版, requires-body=true, enable={{{OriginalVersion}}}
+http-request ^https:\/\/in\.m\.jd\.com\/product\/graphext\/\d+\.html script-path=https://raw.githubusercontent.com/mw418/Loon/main/script/jd_price.js, tag=京东比价弹窗版, enable={{{Pop-upWindowVersion}}}
