@@ -47,6 +47,8 @@ DOMAIN-SUFFIX,ossez.com
 DOMAIN-SUFFIX,oclean.com
 
 # ======= P ======= #
+#Pornhub
+DOMAIN-KEYWORD,phncdn,DIRECT
 
 # ======= Q ======= #
 #雀魂麻将
