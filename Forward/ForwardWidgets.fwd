@@ -1,0 +1,16 @@
+{
+  "title": "自用ForwardWidgets",
+  "description": "VOD模块",
+  "icon": "https://raw.githubusercontent.com/quantumultxx/FW-Widgets/refs/heads/main/icon/icon1.PNG",
+  "widgets": [
+    {
+      "id": "ti.bemarkt.vod.maccms",
+      "title": "VOD",
+      "description": "获取 VOD 影视数据",
+      "requiredVersion": "0.0.1",
+      "version": "1.1.0",
+      "author": "Ti",
+      "url": ""
+    }
+  ]
+}
