@@ -1,7 +1,7 @@
 {
   "title": "自用ForwardWidgets",
   "description": "VOD模块",
-  "icon": "https://raw.githubusercontent.com/quantumultxx/FW-Widgets/refs/heads/main/icon/icon1.PNG",
+  "icon": "https://raw.githubusercontent.com/Raphael689/RW/master/iCons/RW689.png",
   "widgets": [
     {
       "id": "ti.bemarkt.vod.maccms",
@@ -10,7 +10,7 @@
       "requiredVersion": "0.0.1",
       "version": "1.1.0",
       "author": "Ti",
-      "url": ""
+      "url": "https://raw.githubusercontent.com/Raphael689/RW/refs/heads/main/Forward/JS/vod.js"
     }
   ]
 }
