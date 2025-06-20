@@ -4,7 +4,7 @@
   "icon": "https://raw.githubusercontent.com/Raphael689/RW/master/iCons/RW689.png",
   "widgets": [
     {
-      "id": "ti.bemarkt.vod.maccms",
+      "id": "ti.forward.vod.rw",
       "title": "VOD",
       "description": "获取 VOD 影视数据",
       "requiredVersion": "0.0.1",
