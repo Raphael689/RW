@@ -30,6 +30,8 @@ DOMAIN-SUFFIX,ds2tk8.xyz
 # ======= D ======= #
 #大地
 DOMAIN-SUFFIX,dadiapi.com
+#dytt8vip
+DOMAIN-SUFFIX,dytt8vip.com
 
 
 # ======= E ======= #
@@ -52,16 +54,23 @@ DOMAIN-SUFFIX,huaduys.org
 #hohoj
 DOMAIN-SUFFIX,hohoj.tv
 DOMAIN-SUFFIX,ggjav.com
+#heimuer
+DOMAIN-SUFFIX,heimuer.tv
 
 # ======= I ======= #
 #imdb
 DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,media-imdb.com
+#iill
+DOMAIN-SUFFIX,iill.top
+#imgzy360
+DOMAIN-SUFFIX,imgzy360.com
 
 # ======= J ======= #
 #javday
 DOMAIN-SUFFIX,javday.tv
 DOMAIN-SUFFIX,javday.app
+DOMAIN-KEYWORD,javday
 DOMAIN-SUFFIX,statically.io
 #jable
 DOMAIN-SUFFIX,mushroomtrack.com
@@ -96,6 +105,7 @@ DOMAIN-SUFFIX,misty.cx
 DOMAIN-SUFFIX,ppxys.vip
 #pornhub
 DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,phncdn.com
 
 # ======= Q ======= #
 #秋名山見(live)
