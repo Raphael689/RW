@@ -1,4 +1,5 @@
-
+/* 来自githubdulong
+*/
 #!name=通知推送
 #!desc=将 Surge 通知内容利用 Bark 推送至其他设备
 #!arguments=BARK_TOKEN:填写Token,GROUP:Surge,ICON:https://raw.githubusercontent.com/xream/scripts/main/scriptable/surge/surge-dark.png,SOUND:shake,AUTO_COPY:1,IS_ARCHIVE:1,LEVEL:active,VOLUME:5,IGNORE_REGEX:屏蔽通知正则
