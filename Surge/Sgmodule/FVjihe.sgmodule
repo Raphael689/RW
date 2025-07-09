@@ -9,16 +9,12 @@
 
 
 [MITM]
-hostname = %APPEND% api.pxmage.com,wxapi.zhongyuedu.com,www.evestudio.cn,www.xiaoxiongyouhao.com,flomoapp.com,appraven.net,api.revenuecat.com,dq.xiangha.com,apiios_dq.xiangha.com
+hostname = %APPEND% api.pxmage.com,www.evestudio.cn,www.xiaoxiongyouhao.com,flomoapp.com,appraven.net,api.revenuecat.com,dq.xiangha.com,apiios_dq.xiangha.com
 
 
 [Script]
 #ego
 ego = type=http-response,pattern=^https?:\/\/api\.pxmage\.com\/egoreader\/user\/info,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/ego.js,script-update-interval=0
-
-#扁鹊中医
-扁鹊中医 = type=http-response,pattern=https://wxapi.zhongyuedu.com/zy/video_list.php,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/Bianquezy.js,script-update-interval=0
-"https://wxapi.zhongyuedu.com/zy/begin.php" - reject
 
 #todo清单
 todo清单 = type=http-response,pattern=^https:\/\/www\.evestudio\.cn\/todoList\/getDetailUser,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Todo.js,script-update-interval=0
