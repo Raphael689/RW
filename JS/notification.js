@@ -3,6 +3,7 @@
  * 增加关键词屏蔽参数，修改日志排版
  * 更新日期 2024.11.18 19:42
  * 原作者 @Sliverkiss
+ * 来自githubdulong
  */
 
 const NAMESPACE = '通知';
