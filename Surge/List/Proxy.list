@@ -105,7 +105,7 @@ DOMAIN-SUFFIX,misty.cx
 DOMAIN-SUFFIX,ppxys.vip
 #pornhub
 DOMAIN-SUFFIX,pornhub.com
-DOMAIN-SUFFIX,phncdn.com
+DOMAIN-KEYWORD,phncdn
 
 # ======= Q ======= #
 #秋名山見(live)
@@ -178,7 +178,7 @@ DOMAIN-KEYWORD,cdn77
 DOMAIN-KEYWORD,killcovid2021
 DOMAIN-KEYWORD,btc620
 DOMAIN-KEYWORD,beebi
-DOMAIN-KEYWORD,phncdn
+
 #
 DOMAIN,www.v2rayssr.com
 DOMAIN,sakura.cat
