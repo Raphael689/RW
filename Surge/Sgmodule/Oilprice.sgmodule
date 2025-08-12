@@ -4,8 +4,6 @@
 #!openUrl = http://m.qiyoujiage.com/
 #!homepage = 
 #!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/oil.png
-#!arguments=region:zhejiang,update_interval:43200
-#!arguments-desc=[参数设置]\nregion: 地区（zhejiang）\nupdate_interval: 面板刷新间隔（秒，默认43200）
 #!date = 
 
 [Panel]
