@@ -4,7 +4,7 @@
 #!version=2025.08.12
 
 [Panel]
-汇率信息 = script-name=hl, update-interval=432000
+汇率信息 = script-name=汇率监控, update-interval=432000
 
 [Script]
 汇率监控 = type=generic, script-path=https://raw.githubusercontent.com/Raphael689/RW/refs/heads/main/JS/hl.js
