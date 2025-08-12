@@ -1,0 +1,12 @@
+#!name=💱汇率监控
+#!desc=多源头监控汇率波动、面板展示详细汇率信息、支持波动提醒（面板显示）、模块多参数灵活调节：系统通知提醒、通知冷却时间、自定义货币基数等...
+#!author=okk
+#!version=2025.08.12
+#!arguments=icon:arrow.left.arrow.right.circle,color:#EF8F1C,update_interval:43200,threshold:0.1,notify:true,show_flag:true,notify_cooldown:5,base_strong:1,base_weak:1
+#!arguments-desc=[参数设置]\nicon: 面板图标（SF Symbols）\ncolor: 图标颜色（HEX）\nupdate_interval: 面板刷新间隔（秒，默认43200）\nthreshold: 汇率波动提醒阈值（百分比，默认0.1）\nnotify: 是否推送通知（true/false，默认true）\nshow_flag: 是否显示国旗（true/false，默认true）\nnotify_cooldown: 通知冷却时间（分钟，默认5）\nbase_strong: 强势币种兑换基数（面板前3个，如USD/EUR，默认 1）\nbase_weak: 弱势币种兑换基数（面板后4个，如JPY/KRW，默认 1）
+
+[Panel]
+汇率信息 = script-name=汇率监控, update-interval={{{update_interval}}}
+
+[Script]
+汇率监控 = type=generic, script-path=https://raw.githubusercontent.com/Raphael689/RW/refs/heads/main/JS/hl.js, argument=threshold={{{threshold}}}&notify={{{notify}}}&show_flag={{{show_flag}}}&notify_cooldown={{{notify_cooldown}}}&icon={{{icon}}}&color={{{color}}}&base_strong={{{base_strong}}}&base_weak={{{base_weak}}}
