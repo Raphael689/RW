@@ -9,7 +9,7 @@
 #!date = 
 
 [Panel]
-YJ = script-name=YJ,update-interval={{{update_interval}}}
+YJ = script-name=YJ,update-interval=43200
 
 [Script]
-YJ = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/iuu666/Backup/refs/heads/main/js/YJ/yj.js, argument=region={{{region}}}
+YJ = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/iuu666/Backup/refs/heads/main/js/YJ/yj.js, argument=zhejiang
