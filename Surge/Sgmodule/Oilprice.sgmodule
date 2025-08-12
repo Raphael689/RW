@@ -4,10 +4,11 @@
 #!openUrl = http://m.qiyoujiage.com/
 #!homepage = 
 #!icon = https://raw.githubusercontent.com/Raphael689/RW/master/iCons/oil.png
+#!arguments-desc=[参数设置]\nregion: 地区（zhejiang）\nupdate_interval: 面板刷新间隔（秒，默认43200）
 #!date = 
 
 [Panel]
-今日油价 = script-name=今日油价,update-interval=86400
+YJ = script-name=YJ,update-interval={{{update_interval}}}
 
 [Script]
-今日油价 = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/Toperlock/Quantumult/main/task/oil_price.js,script-update-interval=0
+YJ = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/iuu666/Backup/refs/heads/main/js/YJ/yj.js, argument=region={{{region}}}
