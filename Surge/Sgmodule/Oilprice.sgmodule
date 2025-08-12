@@ -8,4 +8,4 @@
 
 
 [Script]
-今日油价 = type=generic,timeout=60,script-path=https://raw.githubusercontent.com/Toperlock/Quantumult/main/task/oil_price.js,script-update-interval=0
+今日油价 = type=cron,cronexp=0 0 7 * * *timeout=60,script-path=https://raw.githubusercontent.com/Toperlock/Quantumult/main/task/oil_price.js,script-update-interval=0
