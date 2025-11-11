@@ -1,0 +1,15 @@
+[
+    {"id": "heimuer","name": "黑木耳","type": 0,"api": "https://www.heimuer.tv/api.php/provide/vod/","note": "需要代理"},
+    {"id": "haiwai","name": "海外","type": 0,"api": "https://hw8.live/api.php/provide/vod/","note": "需要代理"},
+    {"id": "haiwaikanziyuan","name": "海外看资源","type": 0,"api": "https://haiwaikan.com/api.php/provide/vod/","note": "需要代理"},
+    {"id": "hongjiuziyuan","name": "紅牛资源","type": 0,"api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/"},
+    {"id": "liangziyun","name": "量子云","type": 0,"api": "https://cj.lziapi.com/api.php/provide/vod/"},
+    {"id": "39yingshi","name": "39影視","type": 0,"api": "https://www.39kan.com/api.php/provide/vod/"},
+    {"id": "wolongziyuan","name": "卧龙资源","type": 0,"api": "https://collect.wolongzyw.com/api.php/provide/vod/"},
+    {"id": "jinyingziyuan","name": "金鹰资源","type": 0,"api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/"},
+    {"id": "guangsuziyuan","name": "光速资源","type": 0,"api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/"},
+    {"id": "ukuziyuan","name": "U酷资源","type": 0,"api": "https://api.ukuapi.com/api.php/provide/vod/"},
+    {"id": "yinghuaziyuanwang","name": "樱花资源网","type": 0,"api": "https://m3u8.apiyhzy.com/api.php/provide/vod/"},
+    {"id": "tiankongziyuan1","name": "天空资源","type": 0,"api": "https://m3u8.tiankongapi.com/api.php/provide/vod/from/tkm3u8/"},
+    {"id": "tiankongziyuan2","name": "天空资源","type": 0,"api": "http://api.tiankongapi.com/api.php/provide/vod/"}
+]
