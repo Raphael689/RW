@@ -84,7 +84,7 @@
         button.style.left = "10px";
         button.style.bottom = "140px"; // 上移一些以适应页面
     }
-    
+
     button.addEventListener("click", clickHandler);
     return button;
   }
@@ -127,5 +127,4 @@
     window.open(scriptHubUrl, "_blank");
   }
 })();
-
 
