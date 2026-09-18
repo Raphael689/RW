@@ -32,6 +32,8 @@ DOMAIN, pageviewp.icbc.com.cn
 DOMAIN, amap-aos-info-nogw.amap.com
 DOMAIN, awaken.amap.com
 DOMAIN, free-aos-cdn-image.amap.com
+# github，scripting偷跑流量
+DOMAIN, codeload.github.com
 
 # ======= H ======= #
 
