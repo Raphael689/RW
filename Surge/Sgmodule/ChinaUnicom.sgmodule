@@ -1,14 +1,13 @@
-#!name = 联通cookie
-#!desc = 
+#!name = 中国联通Cookie
+#!desc = 获取中国联通 Cookie 写入 BoxJS ComponentService
 #!author = 
 #!homepage = 
 #!openurl = 
 #!icon = https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png
-#!date = 2023-12-16 23:02
+#!date = 2026-09-25 23:08
 
 [Script]
-# 获取联通cookie
-获取联通cookie = type=http-request,pattern=^https:\/\/m\.client\.10010\.com\/serviceimportantbusiness\/smart\/smartwisdomCommonNew,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/dompling/Script/master/10010/index.js,script-update-interval=0
+联通组件 = type=http-request, pattern=^https:\/\/m\.client\.10010\.com\/(mobileserviceimportant\/home\/queryUserInfoSeven|servicequerybusiness\/operationservice\/queryOcsPackageFlowLeftContent|.*\/smartwisdomCommon), script-path=https://raw.githubusercontent.com/ByteValley/NetTool/main/Scripts/Component/ChinaUnicom.js, script-update-interval=0
 
 [MITM]
-hostname = %APPEND% act.10010.com, m.client.10010.com
+hostname = %APPEND% m.client.10010.com
