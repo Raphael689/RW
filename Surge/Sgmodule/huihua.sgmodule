@@ -1,7 +1,7 @@
 #!name = BoxJs会话切换
 #!desc = BoxJs内多会话切换，快捷指令参数、模块参数(argument=xxx,xxx)
 #!openUrl = 
-#!icon =
+#!icon = https://raw.githubusercontent.com/chavyleung/scripts/master/box/icons/BoxJs.png
 #!category = 插件类
 
 [Script]
