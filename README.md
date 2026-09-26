@@ -1,5 +1,5 @@
-# RW689
-Qx Loon
+# 源自网络，感谢分享！自用配置，谨慎使用！
+Qx Loon Egern Surge
 
 
 网络收集的脚本，自用
