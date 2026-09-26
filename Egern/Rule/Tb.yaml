@@ -1,0 +1,6 @@
+# 规则名称: Tb
+
+
+no_resolve: true
+ip_cidr_set:
+-155.102.175.0/24
