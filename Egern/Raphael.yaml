@@ -630,14 +630,18 @@ rules:
     match: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/Egern/Rule/WeChat.yaml
     policy: WeChat
     update_interval: 604800
-- geoip:
-    match: CN
+- rule-set:
+    match: https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/cn-cidr.txt
     policy: DIRECT
-    no_resolve: true
+    update_interval: 604800
 - rule_set:
     match: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/Egern/Rule/Direct.yaml
     policy: DIRECT
     update_interval: 604800
+- geoip:
+    match: CN
+    policy: DIRECT
+    no_resolve: true
 - default:
     policy: PROXY
 scriptings:
