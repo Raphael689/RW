@@ -614,7 +614,7 @@ rules:
     policy: PayPal
     update_interval: 604800
 - rule_set:
-    match: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/Egern/Rule/Telegram.yaml
+    match: https://raw.githubusercontent.com/Raphael689/RW/refs/heads/main/Egern/Rule/Telegram.yaml
     policy: Telegram
     update_interval: 604800
     disabled: false
