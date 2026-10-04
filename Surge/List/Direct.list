@@ -30,6 +30,8 @@ DOMAIN-SUFFIX,biquge.com
 DOMAIN-SUFFIX,amemv.com
 #低端影视
 DOMAIN-SUFFIX,ddys.io
+#cdn
+DOMAIN-SUFFIX,cdn2020.com
 
 # ======= E ======= #
 # ======= F ======= #
